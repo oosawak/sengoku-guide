@@ -377,14 +377,14 @@ async function main(){
   const toggle = $('#nav-toggle'), scrim = $('#nav-scrim');
   if(toggle) toggle.addEventListener('click', ()=>document.body.classList.toggle('nav-open'));
   if(scrim) scrim.addEventListener('click', ()=>document.body.classList.remove('nav-open'));
-  map = L.map('map');
+  map = L.map('map', {scrollWheelZoom:false});
   const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'© OpenStreetMap contributors', maxZoom:18});
   const gsi = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {attribution:'地理院タイル', maxZoom:18});
   const photo = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg', {attribution:'地理院タイル（航空写真）', maxZoom:18});
   gsi.addTo(map);
   L.control.layers({'地理院 標準':gsi, 'OpenStreetMap':osm, '航空写真':photo}).addTo(map);
   const pts = DATA.places.filter(p=>p.lat!=null).map(p=>[p.lat,p.lng]);
-  if(pts.length) map.fitBounds(pts, {padding:[30,30]}); else map.setView([38.1,140.02], 11);
+  if(pts.length) map.fitBounds(pts, {padding:[30,30], maxZoom:12}); else map.setView([38.1,140.02], 11);
   DATA.places.filter(p=>p.lat!=null).forEach(p=>{
     const m = L.marker([p.lat,p.lng]).addTo(map);
     m.bindPopup('<b>'+esc(p.name)+'</b><br>'+esc(p.summary)+'<br><a href="#place-'+p.id+'" data-go="place-'+p.id+'">紹介を読む →</a>');
