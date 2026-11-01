@@ -1,0 +1,11 @@
+{
+ "min_lat": 38.045,
+ "max_lat": 38.155,
+ "min_lng": 139.945,
+ "max_lng": 140.095,
+ "zoom": 13,
+ "width": 874,
+ "height": 814,
+ "source": "地理院タイル（標準）",
+ "source_url": "https://maps.gsi.go.jp/development/ichiran.html"
+}

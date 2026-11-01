@@ -1,0 +1,1618 @@
+{
+ "places": [
+  {
+   "id": "nagai-hakusanmori-date",
+   "name": "白山森館",
+   "yomi": "はくさんもりだて",
+   "number": 14,
+   "lat": 38.1267,
+   "lng": 139.995,
+   "coord_precision": "site_identified",
+   "coord_note": "地理院地図で川原沢集落の南にある標高302.9mの三角点と300m等高線の閉じた山頂に合わせた。旧スキー場名はOSM・地理院とも地名表示なし",
+   "coord_source": "https://maps.gsi.go.jp/#18/38.127050/139.994360/&base=std&ls=std&disp=1&vs=c1j0l0u0t0z0r0s0m0f1",
+   "address": "山形県長井市川原沢地内",
+   "municipality": "長井市",
+   "prefecture": "山形県",
+   "kuni": "出羽",
+   "region": "置賜",
+   "castle_type": "山城",
+   "elevation_m": 303,
+   "clan": null,
+   "clan_note": "個別の城主は確かな資料で確認できず未記入",
+   "periods": [],
+   "related_people": [],
+   "related_events": [],
+   "related_places": [
+    {
+     "place_id": "nagai-shofukuji-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-tokiniwa-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-katakura-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-yokosawayama-date",
+     "relation": "同じ長井市内の四十八館"
+    }
+   ],
+   "territory": {
+    "local_clan": null,
+    "approx_radius_m": 1200,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   "events_timeline": [
+    {
+     "sort_year": 1550,
+     "year_label": "16世紀",
+     "era": "historical",
+     "text": "中世（16世紀）の館（山城）が築かれたとされる",
+     "person_ids": []
+    },
+    {
+     "sort_year": 1981,
+     "year_label": "1981年",
+     "era": "modern",
+     "text": "白山森遺跡として長井市の指定史跡になる",
+     "person_ids": []
+    }
+   ],
+   "years": {
+    "founded": null,
+    "founded_note": "中世（16世紀）の館跡とされる",
+    "active_from": null,
+    "active_to": null
+   },
+   "designation": "長井市指定史跡（白山森遺跡、1981年2月26日指定）",
+   "remains": [
+    "空堀",
+    "土塁",
+    "平場",
+    "塚"
+   ],
+   "certainty": "candidate",
+   "sources": [
+    "山形県公式観光情報「やまがたへの旅」白山森遺跡 https://yamagatakanko.com/attractions/detail_11278.html",
+    "山形県遺跡一覧（長井市）白山森館跡 209-161 https://www.pref.yamagata.jp/documents/3490/nagai_r6.pdf"
+   ],
+   "title": "白山森館",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "summary": "長井市川原沢の標高303mの山頂に残る中世の山城跡。二重の空堀と土塁が巡り、市指定史跡「白山森遺跡」として残る。",
+   "visit_note": "山頂部の史跡。元スキー場付近で道の状態は時期により変わるため、無理のない範囲で訪ねること。",
+   "body_md": "長井市の西部、川原沢の集落を見下ろす山の頂に残る城館跡です。標高は303mほどで、頂上付近一帯が市の史跡「白山森遺跡」に指定されています。\n\n## どんな場所か\n\n平地に住む館とは違い、戦いのときに立てこもることを考えた山の上の拠点だったとみられます。頂上には段差をつけた平場が設けられ、東側と北側を中心に、空堀と土塁が二重に巡っています。堀や土塁は場所によって幅3〜6m、高さ4mほどにもなります。\n\n平場には、墓や経塚と思われる石を積んだ塚が4基残り、そこから壺が出土したことも記録されています。城の施設と、祈りの場が同じ山の上に重なっていたことがうかがえます。\n\n## 歴史メモ\n\n築いた人物や城主については、確かな記録が確認できていません。このデータでは城主を未記入とし、年代も「中世（16世紀）」の範囲にとどめています。置賜が伊達氏の領地だった時代の城館群の一つとして、伊達な置賜四十八館に数えられています。\n\n## 今見られるもの\n\n- 二重に巡る空堀と土塁\n- 段差のある平場と、石を積んだ塚4基\n- 天気のよい日には米沢方面まで見渡せる山頂の眺め",
+   "people": [],
+   "timeline": {
+    "window": {
+     "start": 1540,
+     "end": 1610
+    },
+    "stages": [
+     {
+      "from": 1380,
+      "to": 1591,
+      "name": "伊達氏の時代",
+      "house_id": "date",
+      "color": "#3f6d9e",
+      "left_pct": 0.0,
+      "width_pct": 72.86
+     },
+     {
+      "from": 1591,
+      "to": 1598,
+      "name": "蒲生氏の時代",
+      "house_id": "gamo",
+      "color": "#b3543f",
+      "left_pct": 72.86,
+      "width_pct": 10.0
+     },
+     {
+      "from": 1598,
+      "to": 1615,
+      "name": "上杉氏の時代",
+      "house_id": "uesugi",
+      "color": "#7a5c9e",
+      "left_pct": 82.86,
+      "width_pct": 17.14
+     }
+    ],
+    "events": [
+     {
+      "sort_year": 1550,
+      "year_label": "16世紀",
+      "text": "中世（16世紀）の館（山城）が築かれたとされる",
+      "persons_at": []
+     }
+    ],
+    "modern_events": [
+     {
+      "year_label": "1981年",
+      "text": "白山森遺跡として長井市の指定史跡になる"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nagai-katakura-date",
+   "name": "片倉館",
+   "yomi": "かたくらだて",
+   "number": 17,
+   "lat": 38.0985,
+   "lng": 139.9975,
+   "coord_precision": "aza_approximation",
+   "coord_note": "地理院地図で平山の南に表示される字木口の宅地のまとまりの中心に置いた近似値。城館名の表示はOSM・地理院ともなし。私有地のため、ピンは字の中心程度の精度にとどめる",
+   "coord_source": "https://maps.gsi.go.jp/#18/38.098500/139.997500/&base=std&ls=std&disp=1&vs=c1j0l0u0t0z0r0s0m0f1",
+   "address": "山形県長井市平山字木口",
+   "municipality": "長井市",
+   "prefecture": "山形県",
+   "kuni": "出羽",
+   "region": "置賜",
+   "castle_type": "居館",
+   "clan": "片倉氏",
+   "periods": [
+    {
+     "house_id": "date",
+     "house": "伊達家",
+     "clan": "片倉氏",
+     "from": 1509,
+     "to": null,
+     "role": "居館"
+    }
+   ],
+   "related_people": [],
+   "related_events": [],
+   "related_places": [
+    {
+     "place_id": "nagai-hakusanmori-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-shofukuji-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-tokiniwa-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-yokosawayama-date",
+     "relation": "同じ長井市内の四十八館"
+    }
+   ],
+   "territory": {
+    "local_clan": "片倉氏（分家）",
+    "approx_radius_m": 1400,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   "events_timeline": [
+    {
+     "sort_year": 1509,
+     "year_label": "1509年",
+     "era": "historical",
+     "text": "片倉右京がこの館にいたと伝わる",
+     "person_ids": [
+      "katakura-ukyo"
+     ]
+    },
+    {
+     "sort_year": 1545,
+     "year_label": "1542〜1548年（天文の乱）",
+     "era": "historical",
+     "text": "右京の子・図書介が、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝わる",
+     "person_ids": [
+      "katakura-zushonosuke"
+     ]
+    }
+   ],
+   "years": {
+    "founded": null,
+    "founded_note": "永正6年（1509）に片倉右京がいたと伝わる",
+    "active_from": 1509,
+    "active_to": null
+   },
+   "designation": "なし",
+   "remains": [
+    "土塁",
+    "堀"
+   ],
+   "certainty": "candidate",
+   "sources": [
+    "城郭放浪記「出羽 片倉館」https://www.hb.pei.jp/shiro/dewa/hirayama-katakura-date/",
+    "Kappo ARTICLES「伊達な置賜四十八館を巡る」片倉館の項 https://kappo.machico.mu/articles/9353"
+   ],
+   "title": "片倉館",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "summary": "長井市平山に残る片倉氏分家の居館跡。小規模ながら堀と土塁がよく残り、今も片倉氏の子孫がこの地に住んでいるという、珍しい城館跡。",
+   "visit_note": "現在も人が住む宅地で、私有地です。敷地には立ち入らず、住んでいる方への撮影・声かけも控えてください。位置のピンも字の中心程度の精度にとどめています。",
+   "body_md": "長井市西部の平山にある、小さな居館の跡です。伊達政宗の重臣・片倉景綱を出した片倉氏はいくつかの家に分かれていて、その分家の一つがこの地に住みました。\n\n## どんな場所か\n\n規模は大きくありませんが、屋敷のまわりを堀と土塁が巡る形が残っています。西側では堀が二重になっているともいわれ、単郭の館としては丁寧な構えです。取材記事では、上空から見ると五角形に近い館の形が分かると紹介されています。\n\n## 歴史メモ\n\n資料によれば、永正6年（1509）には片倉右京がこの館にいたとされます。天文の乱のときには、その子の片倉図書介が、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝えられます。伊達氏の中で親子・同族が敵味方や別の館に分かれて動いた、戦国らしい一場面です。\n\n今も片倉氏の子孫がこの地に住んでいるといわれます。城主の子孫が城跡に住み続ける例は、全国でも珍しい部類です。\n\n## 今見られるもの\n\n- 屋敷を巡る土塁と堀（敷地の外、公道から見える範囲のみ）\n- ※私有地のため、敷地内での見学はできません",
+   "people": [
+    {
+     "person_id": "katakura-ukyo",
+     "name": "片倉右京",
+     "role": "館主と伝わる",
+     "from": 1509,
+     "to": 1509,
+     "certainty": "candidate"
+    },
+    {
+     "person_id": "katakura-zushonosuke",
+     "name": "片倉図書介",
+     "role": "片倉館の片倉氏として戦いに参加",
+     "from": 1542,
+     "to": 1548,
+     "certainty": "candidate"
+    }
+   ],
+   "timeline": {
+    "window": {
+     "start": 1490,
+     "end": 1610
+    },
+    "stages": [
+     {
+      "from": 1380,
+      "to": 1591,
+      "name": "伊達氏の時代",
+      "house_id": "date",
+      "color": "#3f6d9e",
+      "left_pct": 0.0,
+      "width_pct": 84.17
+     },
+     {
+      "from": 1591,
+      "to": 1598,
+      "name": "蒲生氏の時代",
+      "house_id": "gamo",
+      "color": "#b3543f",
+      "left_pct": 84.17,
+      "width_pct": 5.83
+     },
+     {
+      "from": 1598,
+      "to": 1615,
+      "name": "上杉氏の時代",
+      "house_id": "uesugi",
+      "color": "#7a5c9e",
+      "left_pct": 90.0,
+      "width_pct": 10.0
+     }
+    ],
+    "events": [
+     {
+      "sort_year": 1509,
+      "year_label": "1509年",
+      "text": "片倉右京がこの館にいたと伝わる",
+      "persons_at": [
+       {
+        "person_id": "katakura-ukyo",
+        "name": "片倉右京"
+       }
+      ]
+     },
+     {
+      "sort_year": 1545,
+      "year_label": "1542〜1548年（天文の乱）",
+      "text": "右京の子・図書介が、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝わる",
+      "persons_at": [
+       {
+        "person_id": "katakura-zushonosuke",
+        "name": "片倉図書介"
+       }
+      ]
+     }
+    ],
+    "modern_events": []
+   }
+  },
+  {
+   "id": "nagai-shofukuji-date",
+   "name": "正福寺館",
+   "yomi": "しょうふくじだて",
+   "number": 15,
+   "lat": 38.0962,
+   "lng": 140.0292,
+   "coord_precision": "aza_approximation",
+   "coord_note": "OSMで確認できる九野本の正福寺の位置（38.096125, 140.028413）を基準に、館跡は寺・神社の東側という位置関係から、その東の区画に置いた近似値。館跡自体の地名表示はOSM・地理院ともなし",
+   "coord_source": "https://www.openstreetmap.org/search?query=%E6%AD%A3%E7%A6%8F%E5%AF%BA%20%E9%95%B7%E4%BA%95%E5%B8%82#map=19/38.096125/140.028413",
+   "address": "山形県長井市九野本字館之内",
+   "municipality": "長井市",
+   "prefecture": "山形県",
+   "kuni": "出羽",
+   "region": "置賜",
+   "castle_type": "居館",
+   "clan": "大町氏",
+   "periods": [
+    {
+     "house_id": "date",
+     "house": "伊達家",
+     "clan": "大町氏",
+     "from": null,
+     "to": null,
+     "role": "居館"
+    }
+   ],
+   "related_people": [],
+   "related_events": [],
+   "related_places": [
+    {
+     "place_id": "nagai-hakusanmori-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-tokiniwa-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-katakura-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-yokosawayama-date",
+     "relation": "同じ長井市内の四十八館"
+    }
+   ],
+   "territory": {
+    "local_clan": "大町氏",
+    "approx_radius_m": 1600,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   "events_timeline": [
+    {
+     "sort_year": 1470,
+     "year_label": "1470年頃",
+     "era": "historical",
+     "text": "館屋敷の造成はこの頃と推定される",
+     "person_ids": [
+      "omachi-ietsugu"
+     ]
+    },
+    {
+     "sort_year": 1545,
+     "year_label": "1542〜1548年（天文の乱）",
+     "era": "historical",
+     "text": "在館の大町頼明が、片倉伊賀守らとともに鮎貝氏と戦い戦功をあげたとされる",
+     "person_ids": [
+      "omachi-yoriaki"
+     ]
+    },
+    {
+     "sort_year": 1584,
+     "year_label": "1584年",
+     "era": "historical",
+     "text": "段銭帳に、大町氏の九野本における広い所領が記録される",
+     "person_ids": []
+    }
+   ],
+   "years": {
+    "founded": null,
+    "founded_note": "南北朝期に大町家継が築いたとされ、館屋敷の造成は1470年頃と推定される",
+    "active_from": null,
+    "active_to": null
+   },
+   "designation": "なし（県遺跡一覧に城館跡として登録、正福寺館跡 209-217）",
+   "remains": [
+    "土塁"
+   ],
+   "certainty": "candidate",
+   "sources": [
+    "山形県中世城館遺跡調査報告書 第1集（置賜地域、1995）正福寺館の項 https://sitereports.nabunken.go.jp/files/attach/8/8519/6284_2_%E5%B1%B1%E5%BD%A2%E7%9C%8C%E4%B8%AD%E4%B8%96%E5%9F%8E%E9%A4%A8%E9%81%BA%E8%B7%A1%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+    "山形県遺跡一覧（長井市）正福寺館跡 209-217 https://www.pref.yamagata.jp/documents/3490/nagai_r6.pdf"
+   ],
+   "title": "正福寺館",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "summary": "長井市九野本にあった伊達譜代・大町氏の居館跡。野川の北に勢力を持った鮎貝氏に備える位置にあり、西側に大きな土塁が残る。",
+   "visit_note": "周辺は宅地・農地で、館跡も私有地を含む。道路や寺社の境内など、立ち入ってよい場所から見ること。",
+   "body_md": "長井市九野本の「館之内」という字名に残る、平地の居館の跡です。西隣には、正福寺と八雲神社が並んでいます。\n\n## どんな場所か\n\n館は野川の南岸に置かれました。川を挟んだ北側には鮎貝氏が力を持っていたため、この館は北への備えの位置にあたります。館のまわりは湿った田が広がり、それ自体も守りの一部になっていたと考えられます。\n\n## 歴史メモ\n\n県の調査報告書によれば、築いたのは伊達氏の古くからの家臣である大町家継で、南北朝期のこととされます。大町氏は伊達氏が置賜を攻略したときの功績で、長井庄内に知行地を与えられたといいます。館の造成は1470年頃と推定され、天文の頃には大町頼明がこの館にいて、天文の乱で戦功をあげたと記録されています。\n\n1584年の記録では、大町氏の九野本での所領は広く、この館はその所領を治め、年貢を集める拠点でもありました。戦うための場所であると同時に、領地経営の中心だったわけです。\n\n## 今見られるもの\n\n- 西側に残る土塁（高さ約2.5m、基底約9mとされる）\n- 「館之内」の字名と、西隣の正福寺・八雲神社",
+   "people": [
+    {
+     "person_id": "omachi-ietsugu",
+     "name": "大町家継",
+     "role": "築城者とされる",
+     "from": null,
+     "to": null,
+     "certainty": "candidate"
+    },
+    {
+     "person_id": "omachi-yoriaki",
+     "name": "大町頼明",
+     "role": "在館",
+     "from": 1542,
+     "to": 1548,
+     "certainty": "candidate"
+    }
+   ],
+   "timeline": {
+    "window": {
+     "start": 1460,
+     "end": 1610
+    },
+    "stages": [
+     {
+      "from": 1380,
+      "to": 1591,
+      "name": "伊達氏の時代",
+      "house_id": "date",
+      "color": "#3f6d9e",
+      "left_pct": 0.0,
+      "width_pct": 87.33
+     },
+     {
+      "from": 1591,
+      "to": 1598,
+      "name": "蒲生氏の時代",
+      "house_id": "gamo",
+      "color": "#b3543f",
+      "left_pct": 87.33,
+      "width_pct": 4.67
+     },
+     {
+      "from": 1598,
+      "to": 1615,
+      "name": "上杉氏の時代",
+      "house_id": "uesugi",
+      "color": "#7a5c9e",
+      "left_pct": 92.0,
+      "width_pct": 8.0
+     }
+    ],
+    "events": [
+     {
+      "sort_year": 1470,
+      "year_label": "1470年頃",
+      "text": "館屋敷の造成はこの頃と推定される",
+      "persons_at": [
+       {
+        "person_id": "omachi-ietsugu",
+        "name": "大町家継"
+       }
+      ]
+     },
+     {
+      "sort_year": 1545,
+      "year_label": "1542〜1548年（天文の乱）",
+      "text": "在館の大町頼明が、片倉伊賀守らとともに鮎貝氏と戦い戦功をあげたとされる",
+      "persons_at": [
+       {
+        "person_id": "omachi-yoriaki",
+        "name": "大町頼明"
+       }
+      ]
+     },
+     {
+      "sort_year": 1584,
+      "year_label": "1584年",
+      "text": "段銭帳に、大町氏の九野本における広い所領が記録される",
+      "persons_at": []
+     }
+    ],
+    "modern_events": []
+   }
+  },
+  {
+   "id": "nagai-tokiniwa-date",
+   "name": "時庭館",
+   "yomi": "ときにわだて",
+   "number": 16,
+   "lat": 38.0762,
+   "lng": 140.0216,
+   "coord_precision": "aza_approximation",
+   "coord_note": "地理院地図で時庭字波化にある寺院記号と建物のまとまり（正法寺の境内とみられる地点）に置いた近似値。寺名の表示はOSM・地理院ともなし",
+   "coord_source": "https://maps.gsi.go.jp/#17/38.074500/140.023500/&base=std&ls=std&disp=1&vs=c1j0l0u0t0z0r0s0m0f1",
+   "address": "山形県長井市時庭字波化（大雄山正法寺境内一帯）",
+   "municipality": "長井市",
+   "prefecture": "山形県",
+   "kuni": "出羽",
+   "region": "置賜",
+   "castle_type": "居館",
+   "clan": "安久津氏",
+   "periods": [
+    {
+     "house_id": "date",
+     "house": "伊達家",
+     "clan": "安久津氏",
+     "from": null,
+     "to": 1591,
+     "role": "居館"
+    }
+   ],
+   "related_people": [],
+   "related_events": [],
+   "related_places": [
+    {
+     "place_id": "nagai-hakusanmori-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-shofukuji-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-katakura-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-yokosawayama-date",
+     "relation": "同じ長井市内の四十八館"
+    }
+   ],
+   "territory": {
+    "local_clan": "安久津氏",
+    "approx_radius_m": 1600,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   "events_timeline": [
+    {
+     "sort_year": 1580,
+     "year_label": "天正年間（1573〜1592）",
+     "era": "historical",
+     "text": "安久津甚内が時庭の有力者だったと伝わる",
+     "person_ids": [
+      "akutsu-jinnai"
+     ]
+    },
+    {
+     "sort_year": 1591,
+     "year_label": "1591年",
+     "era": "historical",
+     "text": "政宗の岩出山移封に安久津氏が従い、館は廃れたと推定される",
+     "person_ids": [
+      "date-masamune"
+     ]
+    }
+   ],
+   "years": {
+    "founded": null,
+    "founded_note": "築城時期は未確認",
+    "active_from": null,
+    "active_to": 1591,
+    "active_to_note": "政宗の岩出山移封に安久津氏が従った後に廃館になったと推定される"
+   },
+   "designation": "なし（県遺跡一覧に城館跡として登録、時庭館跡 209-092）",
+   "remains": [
+    "土塁",
+    "堀"
+   ],
+   "certainty": "candidate",
+   "sources": [
+    "時庭館の調査・伝承をまとめた個人資料ページ（出羽の城館）https://www.dewatabi.com/siro/tokiniwadate.html",
+    "山形県遺跡一覧（長井市）時庭館跡 209-092 https://www.pref.yamagata.jp/documents/3490/nagai_r6.pdf",
+    "長井市『ながいの歴史』正法寺（長井市時庭1428）の項"
+   ],
+   "title": "時庭館",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "summary": "長井市時庭、今の大雄山正法寺の境内一帯にあった安久津氏の居館跡。西側の土塁は市内に残る城館土塁の中でも最大級とされる。",
+   "visit_note": "現在は寺の境内。参拝の作法を守り、建物や墓地の区域では静かに見学すること。",
+   "body_md": "長井市時庭にある曹洞宗の寺、大雄山正法寺。その境内のあたりが、かつての時庭館の跡です。\n\n## どんな場所か\n\nもともとは内堀と外堀が館のまわりを巡っていたと伝えられますが、今は西側と北側の一部に、内堀と土塁が残る形になっています。西側の土塁は基底約7m、高さ約3.65mと大きく、長井市に現存する城館の土塁の中では最大級といわれます。\n\n寺から少し西には時庭観音堂があり、その境内は館の馬場だったとも伝えられています。\n\n## 歴史メモ\n\n館主とされるのは安久津氏です。伊達氏に従った家で、伊達氏が置賜に入った頃に当地へ配され、居館を設けたと推定されています。\n\n1591年、豊臣秀吉の奥州仕置によって伊達政宗が米沢から岩出山へ移ると、安久津氏もそれに従いました。その後、時庭館は廃れたと考えられ、跡地に正法寺の境内が移ってきた、というのが大まかな流れです。\n\n## 今見られるもの\n\n- 正法寺境内に残る、西側・北側の土塁と堀の跡\n- 時庭観音堂（置賜三十三観音の札所として知られる）",
+   "people": [
+    {
+     "person_id": "akutsu-jinnai",
+     "name": "安久津甚内",
+     "role": "時庭の有力者",
+     "from": 1573,
+     "to": 1592,
+     "certainty": "candidate"
+    }
+   ],
+   "timeline": {
+    "window": {
+     "start": 1560,
+     "end": 1610
+    },
+    "stages": [
+     {
+      "from": 1380,
+      "to": 1591,
+      "name": "伊達氏の時代",
+      "house_id": "date",
+      "color": "#3f6d9e",
+      "left_pct": 0.0,
+      "width_pct": 62.0
+     },
+     {
+      "from": 1591,
+      "to": 1598,
+      "name": "蒲生氏の時代",
+      "house_id": "gamo",
+      "color": "#b3543f",
+      "left_pct": 62.0,
+      "width_pct": 14.0
+     },
+     {
+      "from": 1598,
+      "to": 1615,
+      "name": "上杉氏の時代",
+      "house_id": "uesugi",
+      "color": "#7a5c9e",
+      "left_pct": 76.0,
+      "width_pct": 24.0
+     }
+    ],
+    "events": [
+     {
+      "sort_year": 1580,
+      "year_label": "天正年間（1573〜1592）",
+      "text": "安久津甚内が時庭の有力者だったと伝わる",
+      "persons_at": [
+       {
+        "person_id": "akutsu-jinnai",
+        "name": "安久津甚内"
+       }
+      ]
+     },
+     {
+      "sort_year": 1591,
+      "year_label": "1591年",
+      "text": "政宗の岩出山移封に安久津氏が従い、館は廃れたと推定される",
+      "persons_at": [
+       {
+        "person_id": "akutsu-jinnai",
+        "name": "安久津甚内"
+       },
+       {
+        "person_id": "date-masamune",
+        "name": "伊達政宗"
+       }
+      ]
+     }
+    ],
+    "modern_events": []
+   }
+  },
+  {
+   "id": "nagai-yokosawayama-date",
+   "name": "横沢山館",
+   "yomi": "よこさわやまだて",
+   "number": 18,
+   "lat": 38.1245,
+   "lng": 140.059,
+   "coord_precision": "aza_approximation",
+   "coord_note": "地理院地図で森集落の南にある標高約210mの等高線の尾根に置いた近似値。森観音・横沢山の地名表示はOSM・地理院とも確認できず、観音堂そのもののピンは特定できていない",
+   "coord_source": "https://maps.gsi.go.jp/#18/38.124500/140.059000/&base=std&ls=std&disp=1&vs=c1j0l0u0t0z0r0s0m0f1",
+   "address": "山形県長井市森地内",
+   "municipality": "長井市",
+   "prefecture": "山形県",
+   "kuni": "出羽",
+   "region": "置賜",
+   "castle_type": "丘城",
+   "elevation_m": 210,
+   "clan": null,
+   "clan_note": "築城者・城主とも記録がなく不明",
+   "periods": [],
+   "related_people": [],
+   "related_events": [],
+   "related_places": [
+    {
+     "place_id": "nagai-hakusanmori-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-shofukuji-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-tokiniwa-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-katakura-date",
+     "relation": "同じ長井市内の四十八館"
+    }
+   ],
+   "territory": {
+    "local_clan": null,
+    "approx_radius_m": 1200,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   "events_timeline": [
+    {
+     "sort_year": 1550,
+     "year_label": "戦国期",
+     "era": "historical",
+     "text": "全体の構造から戦国期の築城と考えられる。築城者は不明",
+     "person_ids": []
+    },
+    {
+     "sort_year": 2017,
+     "year_label": "2017年",
+     "era": "modern",
+     "text": "山形県の遺跡一覧に城館跡として新規登録される",
+     "person_ids": []
+    }
+   ],
+   "years": {
+    "founded": null,
+    "founded_note": "構造から戦国期の築城と考えられるが、築城者の記録はない",
+    "active_from": null,
+    "active_to": null
+   },
+   "designation": "なし（県遺跡一覧に城館跡として2017年2月21日新規登録）",
+   "remains": [
+    "土塁"
+   ],
+   "certainty": "unknown",
+   "sources": [
+    "城郭放浪記「出羽 横沢山館」https://www.hb.pei.jp/shiro/dewa/yokosawayama-date/",
+    "山形県遺跡一覧（長井市）横沢山館跡の項 https://www.pref.yamagata.jp/documents/3490/nagai_r6.pdf"
+   ],
+   "title": "横沢山館",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "summary": "長井市森、最上川の東岸を見渡す丘の上にあったとされる城館跡。森観音の観音堂一帯が城跡とされ、西側に高い土塁が残る。築いた人物は分かっていない。",
+   "visit_note": "観音堂への参道は南側にある。山あいの場所なので、足元と天候に注意し、堂や墓地の区域では静かに見学すること。座標は字の範囲での近似で、観音堂そのものの位置ではない。",
+   "body_md": "長井市の北東、森の集落の南にある丘の城館跡です。標高は約210mで、近くを流れる最上川の東岸一帯を見渡せる位置にあります。\n\n## どんな場所か\n\n城跡とされるのは、森観音の観音堂がある一帯です。観音堂は置賜三十三観音の札所の一つとして知られ、その境内付近が館の中心だったと考えられています。西側には高い土塁が残り、南側には段になった平場も見られるといいます。\n\n## 歴史メモ\n\nこの館については、築いた人物も城主も記録が残っていません。全体の構えから戦国期に築かれたものと考えられていますが、確かな年代も分かっていないため、このデータでは年代と城主を「不明」のままにしています。\n\n県の遺跡一覧への登録も2017年と比較的新しく、長井の城館の中では、これから調べが進む場所の一つです。分からないことが多いこと自体を、試作データでもそのまま残しています。\n\n## 今見られるもの\n\n- 観音堂の西側に残る高い土塁\n- 最上川東岸を見渡せる丘からの眺め",
+   "people": [],
+   "timeline": {
+    "window": {
+     "start": 1540,
+     "end": 1610
+    },
+    "stages": [
+     {
+      "from": 1380,
+      "to": 1591,
+      "name": "伊達氏の時代",
+      "house_id": "date",
+      "color": "#3f6d9e",
+      "left_pct": 0.0,
+      "width_pct": 72.86
+     },
+     {
+      "from": 1591,
+      "to": 1598,
+      "name": "蒲生氏の時代",
+      "house_id": "gamo",
+      "color": "#b3543f",
+      "left_pct": 72.86,
+      "width_pct": 10.0
+     },
+     {
+      "from": 1598,
+      "to": 1615,
+      "name": "上杉氏の時代",
+      "house_id": "uesugi",
+      "color": "#7a5c9e",
+      "left_pct": 82.86,
+      "width_pct": 17.14
+     }
+    ],
+    "events": [
+     {
+      "sort_year": 1550,
+      "year_label": "戦国期",
+      "text": "全体の構造から戦国期の築城と考えられる。築城者は不明",
+      "persons_at": []
+     }
+    ],
+    "modern_events": [
+     {
+      "year_label": "2017年",
+      "text": "山形県の遺跡一覧に城館跡として新規登録される"
+     }
+    ]
+   }
+  }
+ ],
+ "people": [
+  {
+   "id": "akutsu-jinnai",
+   "name": "安久津甚内",
+   "yomi": "あくつ じんない",
+   "house_id": "date",
+   "house": "伊達家",
+   "clan": "安久津氏",
+   "born": null,
+   "died": null,
+   "lifespan_note": "生没年は不明",
+   "era": "天正年間（1573〜1592）",
+   "org_position": {
+    "level": 5,
+    "level_name": "地域の家臣・有力者",
+    "role_terms": [
+     "村地頭"
+    ]
+   },
+   "stays": [
+    {
+     "place_id": "nagai-tokiniwa-date",
+     "from": 1573,
+     "to": 1592,
+     "role": "時庭の有力者",
+     "certainty": "candidate",
+     "note": "在館を直接示す記録ではなく、時庭の有力者として伝わる"
+    }
+   ],
+   "related_people": [],
+   "summary": "天正年間の時庭の有力者と伝わる安久津氏の人物。時庭の鎮守とされる熊野神社の開創を伝える由緒に名が残る。時庭館の館主一族・安久津氏の、記録に残る数少ない名前の一つ。",
+   "certainty": "candidate",
+   "sources": [
+    "時庭館の調査・伝承をまとめた個人資料ページ（出羽の城館）時庭館の項"
+   ],
+   "title": "安久津甚内",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "body_md": "時庭館の館主一族とされる安久津氏の中で、名前が伝わる数少ない人物です。\n\n安久津氏は、伊達氏が置賜を支配した頃に時庭へ配された家と推定されています。甚内は天正年間（1573〜1592）に時庭の有力者だったとされ、時庭の鎮守である坪沼熊野神社は、甚内が開いたという由緒を伝えています。\n\nただし、甚内が時庭館に住んだことを直接示す記録は確認できていません。この紹介では「時庭の有力者」までにとどめ、在館は候補として扱っています。安久津氏は1591年に伊達政宗が岩出山へ移ると、それに従ったとされ、時庭館はその後に廃れたと考えられています。\n\n## 関わる城館\n\n- 時庭館（長井市時庭）― 館主一族の有力者",
+   "places": [
+    {
+     "place_id": "nagai-tokiniwa-date",
+     "place_name": "時庭館",
+     "role": "時庭の有力者",
+     "from": 1573,
+     "to": 1592
+    }
+   ]
+  },
+  {
+   "id": "date-masamune",
+   "name": "伊達政宗",
+   "yomi": "だて まさむね",
+   "house_id": "date",
+   "house": "伊達家",
+   "clan": "伊達氏",
+   "born": 1567,
+   "died": 1636,
+   "era": "戦国〜江戸初期",
+   "data_status": "reference",
+   "master_note": "人物データの正本はゲーム『奥羽一生録』側の人物マスター（content/people/date-masamune.md）。このファイルはガイド側のリンク用の参照で、伝記は正本に委ねる",
+   "org_position": {
+    "level": 1,
+    "level_name": "当主",
+    "role_terms": [
+     "当主",
+     "家督"
+    ]
+   },
+   "stays": [],
+   "related_people": [],
+   "summary": "米沢に生まれ、置賜を本拠に育った伊達家の17代当主。1591年に豊臣秀吉の命で岩出山へ移され、置賜は伊達の手を離れた。長井の城館の多くは、この移封を境に役目を終えたと考えられている。",
+   "certainty": "confirmed",
+   "sources": [
+    "ゲーム『奥羽一生録』人物マスター date-masamune（正本）"
+   ],
+   "title": "伊達政宗",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "body_md": "ガイド側の参照用の紹介です。政宗の伝記とデータの正本は、ゲーム『奥羽一生録』の人物マスターにあります。\n\n長井の城館との関わりは「住んだ城」ではなく、領主としての関わりです。政宗は米沢で生まれ、25歳まで置賜で過ごしました。1591年、豊臣秀吉による奥州仕置で政宗が岩出山へ移ると、安久津氏のように従って移る家もあり、時庭館をはじめとする長井の城館は、この年に大きな区切りを迎えたと考えられています。\n\n城館の年表では、1591年は「伊達氏の時代」の終わりとして、すべての館に共通する目印になります。\n\n## 関わる城館\n\n- 長井市内の各館 ― 領主（在館した人物ではない）",
+   "places": []
+  },
+  {
+   "id": "date-shigezane",
+   "name": "伊達成実",
+   "yomi": "だて しげざね",
+   "alias": "時宗丸 / 藤五郎",
+   "house_id": "date",
+   "house": "伊達家",
+   "clan": "伊達氏",
+   "born": 1568,
+   "died": 1646,
+   "era": "戦国〜江戸初期",
+   "data_status": "reference",
+   "master_note": "人物データの正本はゲーム『奥羽一生録』側の人物マスター（content/people/date-shigezane.md）。このファイルは組織図の例として置くガイド側の参照",
+   "org_position": {
+    "level": 2,
+    "level_name": "一門・重臣",
+    "role_terms": [
+     "一門",
+     "重臣"
+    ]
+   },
+   "stays": [],
+   "related_people": [
+    {
+     "person_id": "date-masamune",
+     "relation": "従弟で主君"
+    }
+   ],
+   "summary": "政宗の従弟で、伊達家の重臣。合戦では先に立ち、調略でも働いた。江戸時代には亘理伊達家として「一門」に列する、組織図の上位にいる人物。",
+   "certainty": "confirmed",
+   "sources": [
+    "ゲーム『奥羽一生録』人物マスター date-shigezane（正本）"
+   ],
+   "title": "伊達成実",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "body_md": "ガイド側の参照用の紹介です。成実の伝記とデータの正本は、ゲーム『奥羽一生録』の人物マスターと、ネオ成実三昧にあります。\n\n組織図の中では、成実は「一門」にあたる人物として置いています。当主・政宗の従弟という血縁に加え、重臣として実際に家を動かした側でもありました。一門は藩政の実務からは離れるのが建前ですが、成実のように血縁と実務の両方を持つ人物もいます。\n\n## 関わる城館\n\n- 長井市内の各館 ― 直接の在館記録はない（組織図の例として掲載）",
+   "places": []
+  },
+  {
+   "id": "katakura-kagetsuna",
+   "name": "片倉景綱",
+   "yomi": "かたくら かげつな",
+   "alias": "片倉小十郎",
+   "house_id": "date",
+   "house": "伊達家",
+   "clan": "片倉氏",
+   "born": 1557,
+   "died": 1615,
+   "era": "戦国〜江戸初期",
+   "data_status": "candidate",
+   "org_position": {
+    "level": 3,
+    "level_name": "家老・重臣",
+    "role_terms": [
+     "家老",
+     "重臣",
+     "城代"
+    ]
+   },
+   "stays": [],
+   "related_people": [
+    {
+     "person_id": "katakura-ukyo",
+     "relation": "同じ片倉氏の一族（長井の片倉館の片倉氏との系譜の詳細は未確認）"
+    },
+    {
+     "person_id": "katakura-zushonosuke",
+     "relation": "同じ片倉氏の一族（同上）"
+    }
+   ],
+   "summary": "伊達政宗の側近として仕えた片倉氏の当主で、通称は小十郎。政宗の近侍から重臣となり、軍事と外交の両面で伊達家を支えた。片倉氏は江戸時代の家格では「一家」に列し、後に一門へ昇ったとされる。",
+   "certainty": "candidate",
+   "sources": [
+    "Weblio辞書「片倉景綱とは」（コトバンク）",
+    "仙台藩の家格に関する資料（片倉氏は一家、後に一門へ昇格）"
+   ],
+   "title": "片倉景綱",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "body_md": "長井の片倉館の紹介で名前が出る、片倉小十郎景綱です。ただし、景綱が長井市平山の片倉館に住んだという確かな記録は、まだ確認できていません。\n\n景綱は米沢の神職の家に生まれ、政宗の父・輝宗に仕えた後、幼い政宗の近侍となりました。長じては政宗の側近・重臣として、戦場では本陣に控え、外交では伊達家の顔として交渉を担ったとされます。後に白石城を預かるなど、伊達家の中でも別格の家臣です。\n\n片倉館（長井市平山）の片倉氏と景綱の片倉氏がどうつながるかは、これからの確認事項です。「置賜郡の片倉館を居館とした」とする資料もあり、同一の館かどうかを含めて、断定せずに候補として置いています。\n\n## 関わる城館\n\n- 片倉館（長井市平山）― 同じ片倉氏の一族の館（景綱本人の在館は未確認）",
+   "places": []
+  },
+  {
+   "id": "katakura-ukyo",
+   "name": "片倉右京",
+   "yomi": "かたくら うきょう",
+   "house_id": "date",
+   "house": "伊達家",
+   "clan": "片倉氏",
+   "born": null,
+   "died": null,
+   "lifespan_note": "生没年・諱（実名）は不明で、右京は通称とみられる",
+   "era": "永正年間（1504〜1521）",
+   "org_position": {
+    "level": 5,
+    "level_name": "地域の家臣（分家）",
+    "role_terms": [
+     "村地頭"
+    ]
+   },
+   "stays": [
+    {
+     "place_id": "nagai-katakura-date",
+     "from": 1509,
+     "to": 1509,
+     "role": "館主と伝わる",
+     "certainty": "candidate"
+    }
+   ],
+   "related_people": [
+    {
+     "person_id": "katakura-zushonosuke",
+     "relation": "子とされる"
+    }
+   ],
+   "summary": "永正6年（1509）に長井市平山の片倉館にいたと伝わる、片倉氏一族の人物。片倉館の記録に残る最初の名前で、その子とされる図書介は天文の乱で戦った。",
+   "certainty": "candidate",
+   "sources": [
+    "城郭放浪記「出羽 片倉館」"
+   ],
+   "title": "片倉右京",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "body_md": "長井市平山の片倉館について、最も古く伝わる名前です。永正6年（1509）に、この館に片倉右京がいたといいます。\n\n右京は官職風の通称で、諱（実名）や生没年は伝わっていません。確かめられるのは「1509年に片倉氏の人物がこの館にいた」という点までで、この紹介でも候補として扱っています。\n\n片倉氏は後に、伊達政宗の重臣・片倉景綱を出す家です。景綱の本流とは別に、こうして置賜の各地に分かれて住んだ一族が、片倉氏の広がりを作っていました。\n\n## 関わる城館\n\n- 片倉館（長井市平山）― 館主と伝わる",
+   "places": [
+    {
+     "place_id": "nagai-katakura-date",
+     "place_name": "片倉館",
+     "role": "館主と伝わる",
+     "from": 1509,
+     "to": 1509
+    }
+   ]
+  },
+  {
+   "id": "katakura-zushonosuke",
+   "name": "片倉図書介",
+   "yomi": "かたくら ずしょのすけ",
+   "house_id": "date",
+   "house": "伊達家",
+   "clan": "片倉氏",
+   "born": null,
+   "died": null,
+   "lifespan_note": "生没年・諱（実名）は不明で、図書介は官職風の通称",
+   "era": "天文年間（1532〜1555）",
+   "org_position": {
+    "level": 5,
+    "level_name": "地域の家臣（分家）",
+    "role_terms": [
+     "村地頭"
+    ]
+   },
+   "stays": [
+    {
+     "place_id": "nagai-katakura-date",
+     "from": 1542,
+     "to": 1548,
+     "role": "片倉館の片倉氏として戦いに参加",
+     "certainty": "candidate",
+     "note": "天文の乱での戦いが伝わる。在館の形は未確認"
+    }
+   ],
+   "related_people": [
+    {
+     "person_id": "katakura-ukyo",
+     "relation": "父とされる"
+    },
+    {
+     "person_id": "omachi-yoriaki",
+     "relation": "天文の乱でともに鮎貝氏と戦ったとされる"
+    }
+   ],
+   "summary": "片倉右京の子とされ、天文の乱では宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝わる。片倉館（長井市平山）の片倉氏が、伊達氏の内紛に巻き込まれて戦ったことを示す名前。",
+   "certainty": "candidate",
+   "sources": [
+    "城郭放浪記「出羽 片倉館」"
+   ],
+   "title": "片倉図書介",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "body_md": "片倉右京の子とされる人物です。図書介は、律令の図書寮に由来する官職風の通称で、「ずしょのすけ」と読みます。諱や生没年は伝わっていません。\n\n天文の乱（1542〜1548）では、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝えられます。同じ頃、正福寺館の大町頼明も鮎貝氏と戦っており、野川をはさんだ長井の城館が、伊達氏の内紛の中で一緒に動いていた様子がうかがえます。\n\n小さな館の小さな記録ですが、片倉館が「戦国の中にいた」ことを示す、大切な名前です。\n\n## 関わる城館\n\n- 片倉館（長井市平山）― 天文の乱で戦ったとされる",
+   "places": [
+    {
+     "place_id": "nagai-katakura-date",
+     "place_name": "片倉館",
+     "role": "片倉館の片倉氏として戦いに参加",
+     "from": 1542,
+     "to": 1548
+    }
+   ]
+  },
+  {
+   "id": "omachi-ietsugu",
+   "name": "大町家継",
+   "yomi": "おおまち いえつぐ",
+   "house_id": "date",
+   "house": "伊達家",
+   "clan": "大町氏",
+   "born": null,
+   "died": null,
+   "lifespan_note": "生没年は不明",
+   "era": "南北朝期",
+   "org_position": {
+    "level": 4,
+    "level_name": "一族クラスの家臣",
+    "role_terms": [
+     "譜代",
+     "知行地"
+    ]
+   },
+   "stays": [
+    {
+     "place_id": "nagai-shofukuji-date",
+     "from": null,
+     "to": null,
+     "role": "築城者とされる",
+     "certainty": "candidate"
+    }
+   ],
+   "related_people": [
+    {
+     "person_id": "omachi-yoriaki",
+     "relation": "同じ大町氏の一族（系譜の詳細は未確認）"
+    }
+   ],
+   "related_places_note": "正福寺館の築城者とされるが、大町七郎という人物との関係は不明とする資料もある",
+   "summary": "伊達氏の古くからの家臣・大町氏の人物。長井市九野本の正福寺館を築いたとされ、伊達氏が置賜を攻略したときの功績で長井庄内に知行地を与えられたという。",
+   "certainty": "candidate",
+   "sources": [
+    "山形県中世城館遺跡調査報告書 第1集（置賜地域、1995）正福寺館の項",
+    "戦国観光やまがた情報局の人物資料（大町家継の項、関係不明の注記）"
+   ],
+   "title": "大町家継",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "body_md": "大町氏は、宮城県側の刈田郡大町郷を本貫とする、伊達氏の譜代の家臣です。家継は、その大町氏の人物として、正福寺館の築城者とされています。\n\n県の調査報告書では、家継は伊達宗遠が置賜を攻略したときに功績があり、長井庄内に知行地を与えられたとされます。九野本の地に館を構えたのは、その知行地を治めるためだったのでしょう。\n\nただし、大町七郎という人物と家継の関係は不明とする資料もあり、この紹介でも築城者説は「候補」として扱っています。生没年も分かっていません。\n\n## 関わる城館\n\n- 正福寺館（長井市九野本）― 築城者とされる",
+   "places": [
+    {
+     "place_id": "nagai-shofukuji-date",
+     "place_name": "正福寺館",
+     "role": "築城者とされる",
+     "from": null,
+     "to": null
+    }
+   ]
+  },
+  {
+   "id": "omachi-yoriaki",
+   "name": "大町頼明",
+   "yomi": "おおまち よりあき",
+   "alias": "大町三河七郎",
+   "house_id": "date",
+   "house": "伊達家",
+   "clan": "大町氏",
+   "born": null,
+   "died": null,
+   "lifespan_note": "生没年は不明",
+   "era": "天文年間（1532〜1555）",
+   "org_position": {
+    "level": 5,
+    "level_name": "地域の家臣（在館）",
+    "role_terms": [
+     "知行地",
+     "段銭"
+    ]
+   },
+   "stays": [
+    {
+     "place_id": "nagai-shofukuji-date",
+     "from": 1542,
+     "to": 1548,
+     "role": "在館",
+     "certainty": "candidate",
+     "note": "天文の頃に在館したとされる"
+    }
+   ],
+   "related_people": [
+    {
+     "person_id": "omachi-ietsugu",
+     "relation": "同じ大町氏の一族（系譜の詳細は未確認）"
+    },
+    {
+     "person_id": "katakura-zushonosuke",
+     "relation": "天文の乱でともに鮎貝氏と戦ったとされる"
+    }
+   ],
+   "summary": "天文の頃に正福寺館にいたとされる大町氏の武将。大町三河七郎とも呼ばれ、天文の乱では宮村館の片倉伊賀守らとともに鮎貝氏と戦い、戦功をあげたと記録される。",
+   "certainty": "candidate",
+   "sources": [
+    "山形県中世城館遺跡調査報告書 第1集（置賜地域、1995）正福寺館の項"
+   ],
+   "title": "大町頼明",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "body_md": "正福寺館の歴史の中で、名前と働きが具体的に伝わる人物です。「大町三河七郎頼明」とも記録されます。\n\n天文の乱（1542〜1548）は、伊達稙宗と晴宗の親子が争い、置賜の国衆も巻き込まれた大きな内紛でした。その中で頼明は正福寺館にいて、宮村館の片倉伊賀守とともに、野川の北に力を持っていた鮎貝兵庫頭と戦い、戦功をあげたと県の調査報告書に記されています。\n\n正福寺館が「北への備え」だったことが、記録の上でも裏づけられる人物です。生没年や家継との系譜の詳細は分かっていません。\n\n## 関わる城館\n\n- 正福寺館（長井市九野本）― 天文の頃に在館",
+   "places": [
+    {
+     "place_id": "nagai-shofukuji-date",
+     "place_name": "正福寺館",
+     "role": "在館",
+     "from": 1542,
+     "to": 1548
+    }
+   ]
+  }
+ ],
+ "organizations": [
+  {
+   "id": "date-house",
+   "name": "伊達家の仕組み",
+   "house_id": "date",
+   "title": "伊達家の仕組み ― 組織図と役職",
+   "date": "2026-11-01",
+   "category": "組織",
+   "summary": "当主の上に立つ人はおらず、その下に一門、家老・重臣、家臣、地域の家臣、陪臣と領民が連なる。伊達家の役職と家の序列を、長井の城館に出てくる人物を例に読むためのページ。",
+   "levels": [
+    {
+     "level": 1,
+     "name": "当主",
+     "description": "伊達家の長（大名）。領地と家臣のすべてを束ねる。家督を継ぐことで代替わりする。",
+     "examples": [
+      "date-masamune"
+     ],
+     "terms": [
+      "当主",
+      "家督"
+     ]
+    },
+    {
+     "level": 2,
+     "name": "一門・準一家",
+     "description": "当主の親族（一門）と、もとは独立した領主だった家（準一家）。客人にも近い扱いで、格は高いが藩政の実務には直接関わらないのが建前。",
+     "examples": [
+      "date-shigezane"
+     ],
+     "terms": [
+      "一門",
+      "準一家"
+     ]
+    },
+    {
+     "level": 3,
+     "name": "家老・宿老・重臣",
+     "description": "家の実務のトップ。当主の相談役であり、軍事・外交・財政を取り仕切る。伊達家では代々家老格の家を宿老と呼ぶこともあった。",
+     "examples": [
+      "katakura-kagetsuna"
+     ],
+     "terms": [
+      "家老",
+      "宿老",
+      "重臣",
+      "城代"
+     ]
+    },
+    {
+     "level": 4,
+     "name": "一家・一族の家臣",
+     "description": "古くから仕える家臣や、在地領主だった家。仙台藩の家格では、戦国の大功の家が「一家」、代々の家臣が「一族」に整理された。",
+     "examples": [
+      "omachi-ietsugu"
+     ],
+     "terms": [
+      "一家",
+      "一族",
+      "譜代"
+     ]
+    },
+    {
+     "level": 5,
+     "name": "地域の家臣・村地頭",
+     "description": "知行地の村々に館を構え、年貢の取り立てと治安を担う現場の層。長井の城館の主の多くはこの層にいる。",
+     "examples": [
+      "omachi-yoriaki",
+      "akutsu-jinnai",
+      "katakura-ukyo",
+      "katakura-zushonosuke"
+     ],
+     "terms": [
+      "村地頭",
+      "知行地",
+      "段銭"
+     ]
+    },
+    {
+     "level": 6,
+     "name": "陪臣と領民",
+     "description": "家臣に仕える家臣が陪臣。その下に、年貢を納める農民や城下の町人がいる。城館の記録に名前が残ることは少ない。",
+     "examples": [],
+     "terms": [
+      "陪臣"
+     ]
+    }
+   ],
+   "tree": {
+    "root": {
+     "label": "伊達家当主",
+     "person_id": "date-masamune",
+     "note": "領地と家臣のすべてを束ねる"
+    },
+    "children": [
+     {
+      "label": "一門",
+      "note": "当主の親族・分家。格は高いが実務からは離れる建前",
+      "children": [
+       {
+        "label": "亘理伊達家",
+        "person_id": "date-shigezane",
+        "note": "政宗の従弟。重臣として実務も担った"
+       }
+      ]
+     },
+     {
+      "label": "家老・宿老・重臣",
+      "note": "家の実務のトップ",
+      "children": [
+       {
+        "label": "片倉氏（本家筋）",
+        "person_id": "katakura-kagetsuna",
+        "note": "政宗の側近。白石城を預かる"
+       }
+      ]
+     },
+     {
+      "label": "家臣（譜代・一家・一族の家々）",
+      "note": "代々仕える家臣と、在地領主だった家",
+      "children": [
+       {
+        "label": "大町氏（一族）",
+        "note": "刈田郡大町郷が本貫の譜代",
+        "children": [
+         {
+          "label": "正福寺館",
+          "person_id": "omachi-ietsugu",
+          "note": "築城者とされる"
+         },
+         {
+          "person_id": "omachi-yoriaki",
+          "note": "天文の頃に正福寺館に在館（家継との系譜は未確認）"
+         }
+        ]
+       },
+       {
+        "label": "片倉氏（分家）",
+        "note": "置賜に分かれて住んだ一族",
+        "children": [
+         {
+          "label": "片倉館",
+          "person_id": "katakura-ukyo",
+          "note": "1509年にいたと伝わる"
+         },
+         {
+          "person_id": "katakura-zushonosuke",
+          "note": "右京の子とされる"
+         }
+        ]
+       },
+       {
+        "label": "安久津氏",
+        "note": "時庭に配された家",
+        "children": [
+         {
+          "label": "時庭館",
+          "person_id": "akutsu-jinnai",
+          "note": "天正年間の時庭の有力者"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "村地頭と領民",
+      "note": "各館の下で村を治める層と、年貢を納める農民・町人。記録に名前は残りにくい",
+      "children": []
+     }
+    ]
+   },
+   "terms": [
+    {
+     "term": "当主",
+     "yomi": "とうしゅ",
+     "description": "家の長。大名としての当主は、領地の支配者であり家臣の主君。"
+    },
+    {
+     "term": "家督",
+     "yomi": "かとく",
+     "description": "当主の地位と家の財産を受け継ぐこと。政宗は1584年に家督を継いだ。"
+    },
+    {
+     "term": "一門",
+     "yomi": "いちもん",
+     "description": "当主の親族や分家の総称。仙台藩の家格の最上位。亘理伊達家（成実の家）などがここに列した。"
+    },
+    {
+     "term": "準一家",
+     "yomi": "じゅんいっか",
+     "description": "一家に準じる家格。もとは独立した領主で、伊達家に従った家（天童家など）がここに入った。"
+    },
+    {
+     "term": "一家",
+     "yomi": "いっか",
+     "description": "一門に次ぐ家格。戦国時代に在地領主だった家や大功のあった家。片倉氏はここに列し、後に一門へ昇った。"
+    },
+    {
+     "term": "一族",
+     "yomi": "いちぞく",
+     "description": "代々仕える譜代の家臣の家格。大町氏はこの一族にあたるとされる。"
+    },
+    {
+     "term": "家老",
+     "yomi": "かろう",
+     "description": "家臣のトップの重臣。ふつう複数おり、合議で家政を担う。"
+    },
+    {
+     "term": "宿老",
+     "yomi": "しゅくろう",
+     "description": "経験を積んだ重臣の呼び名。伊達家では代々家老を務める家を指し、他家の家老にあたる実質的な実務トップ。"
+    },
+    {
+     "term": "重臣",
+     "yomi": "じゅうしん",
+     "description": "家の中で重きをなす家臣の総称。家老・宿老を含む、広い意味で使う。"
+    },
+    {
+     "term": "譜代",
+     "yomi": "ふだい",
+     "description": "代々その家に仕えてきた家臣。新しく従った家臣（新参）と区別される。"
+    },
+    {
+     "term": "城代",
+     "yomi": "じょうだい",
+     "description": "城主が不在のとき、その城を預かる代行の役。景綱も城の在番・城代を務めた。"
+    },
+    {
+     "term": "村地頭",
+     "yomi": "むらじとう",
+     "description": "村を治める現場の役。戦国期の置賜では、館を構える地域の家臣が村地頭として村々を束ねた。"
+    },
+    {
+     "term": "知行地",
+     "yomi": "ちぎょうち",
+     "description": "家臣が与えられた土地。そこから上がる年貢が家臣の収入になる。"
+    },
+    {
+     "term": "段銭",
+     "yomi": "たんせん",
+     "description": "田の面積に応じてかける税。戦国期の伊達家では、領内の田に段銭をかけて記録した（段銭帳）。"
+    },
+    {
+     "term": "陪臣",
+     "yomi": "ばいしん",
+     "description": "家臣に仕える家臣。当主から見ると又家臣で、藩の序列の対象には入らなかった。"
+    }
+   ],
+   "sources": [
+    "仙台藩の家格（Wikipedia）― 家格の序列 一門・一家・準一家・一族・宿老・着座・太刀上・召出・平士・組士",
+    "宮城県公式「仙南の農道をゆく」高野家の項 ― 一門11家・一家17家・準一家8家などの内訳"
+   ],
+   "body_md": "城や人物の紹介を読むと、「家老」「一門」「村地頭」のような役職や序列の言葉が次々に出てきます。言葉だけでは上下関係がつかみにくいので、伊達家の中の位置を組織図の形にまとめました。\n\nまず知っておきたいのは、この序列が時代とともに固まっていったことです。戦国時代の伊達家では、上下はもっと流動的でした。当主の親族が重臣として実務を担うこともあれば（成実がその例です）、新しく従った領主がそのまま重い地位に就くこともあります。江戸時代に仙台藩が成立すると、この関係は「家格」として整理され、上から一門・一家・準一家・一族・宿老・着座・太刀上・召出・平士・組士という順になりました。\n\nこのページの組織図は、当主を頂点に、実際に誰の下に誰がいたかをたどれる形にしたものです。あわせて、家格の序列（上から何段目か）も段の表で残しています。長井の城館の主の多くは、下から2段目の「地域の家臣」にいます。当主から何段下で、誰の下にいるのかが分かると、城館同士の関係や、天文の乱のような内紛で誰と誰が一緒に動いたのかも読みやすくなります。\n\n人物の紹介には、その人の段と役職の言葉を付けました。役職の言葉を押すと、このページの用語の説明へ飛びます。"
+  }
+ ],
+ "territories": {
+  "area_polygon": [
+   [
+    38.16136,
+    139.95512
+   ],
+   [
+    38.08264,
+    139.95619
+   ],
+   [
+    38.02406,
+    140.02733
+   ],
+   [
+    38.15143,
+    140.11984
+   ]
+  ],
+  "eras": [
+   {
+    "id": "nagai",
+    "label": "〜1380 長井氏の領地",
+    "house_id": "nagai",
+    "house": "長井氏"
+   },
+   {
+    "id": "date",
+    "label": "1380〜1591 伊達氏の時代（中の領主で色分け）",
+    "house_id": "date",
+    "house": "伊達氏"
+   },
+   {
+    "id": "gamo",
+    "label": "1591〜1598 蒲生氏の領地",
+    "house_id": "gamo",
+    "house": "蒲生氏"
+   },
+   {
+    "id": "uesugi",
+    "label": "1598〜 上杉氏の領地",
+    "house_id": "uesugi",
+    "house": "上杉氏"
+   }
+  ],
+  "house_colors": {
+   "nagai": "#8a9a5b",
+   "date": "#3f6d9e",
+   "gamo": "#b3543f",
+   "uesugi": "#7a5c9e"
+  },
+  "local_areas": [
+   {
+    "place_id": "nagai-hakusanmori-date",
+    "place_name": "白山森館",
+    "lat": 38.1267,
+    "lng": 139.995,
+    "clan": null,
+    "label": "領主不明（伊達家の地）",
+    "color": "#9aa3ab",
+    "radius_m": 1200,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   {
+    "place_id": "nagai-katakura-date",
+    "place_name": "片倉館",
+    "lat": 38.0985,
+    "lng": 139.9975,
+    "clan": "片倉氏（分家）",
+    "label": "片倉氏（分家）",
+    "color": "#6aa84f",
+    "radius_m": 1400,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   {
+    "place_id": "nagai-shofukuji-date",
+    "place_name": "正福寺館",
+    "lat": 38.0962,
+    "lng": 140.0292,
+    "clan": "大町氏",
+    "label": "大町氏",
+    "color": "#e08a2e",
+    "radius_m": 1600,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   {
+    "place_id": "nagai-tokiniwa-date",
+    "place_name": "時庭館",
+    "lat": 38.0762,
+    "lng": 140.0216,
+    "clan": "安久津氏",
+    "label": "安久津氏",
+    "color": "#2e9e7b",
+    "radius_m": 1600,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   {
+    "place_id": "nagai-yokosawayama-date",
+    "place_name": "横沢山館",
+    "lat": 38.1245,
+    "lng": 140.059,
+    "clan": null,
+    "label": "領主不明（伊達家の地）",
+    "color": "#9aa3ab",
+    "radius_m": 1200,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   }
+  ]
+ },
+ "orgmap": {
+  "min_lat": 38.045,
+  "max_lat": 38.155,
+  "min_lng": 139.945,
+  "max_lng": 140.095,
+  "zoom": 13,
+  "width": 874,
+  "height": 814,
+  "source": "地理院タイル（標準）",
+  "source_url": "https://maps.gsi.go.jp/development/ichiran.html",
+  "points": {
+   "nagai-hakusanmori-date": {
+    "x_pct": 33.33,
+    "y_pct": 25.74,
+    "x": 291,
+    "y": 210
+   },
+   "nagai-katakura-date": {
+    "x_pct": 35.0,
+    "y_pct": 51.38,
+    "x": 306,
+    "y": 418
+   },
+   "nagai-shofukuji-date": {
+    "x_pct": 56.13,
+    "y_pct": 53.47,
+    "x": 491,
+    "y": 435
+   },
+   "nagai-tokiniwa-date": {
+    "x_pct": 51.07,
+    "y_pct": 71.65,
+    "x": 446,
+    "y": 583
+   },
+   "nagai-yokosawayama-date": {
+    "x_pct": 76.0,
+    "y_pct": 27.74,
+    "x": 664,
+    "y": 226
+   }
+  },
+  "lord": {
+   "x_pct": 50.0,
+   "y_pct": 96.5,
+   "x": 437,
+   "y": 786
+  }
+ },
+ "meta": {
+  "note": "試作データ。座標は地理院地図・OpenStreetMapで取り直し、領地の範囲は推定（目安）。文章はオリジナル。",
+  "places_count": 5,
+  "people_count": 8
+ }
+}
