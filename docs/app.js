@@ -86,7 +86,7 @@ async function main(){
     const modern = tl.modern_events.length ? '<h3>その後</h3>'+tl.modern_events.map(e=>'<p class="note">'+esc(e.year_label)+'：'+esc(e.text)+'</p>').join('') : '';
     const ppl = p.people.length ? '<h3>この城にいた人物</h3>'+p.people.map(x=>'<a class="chip" href="#person-'+x.person_id+'" data-go="person-'+x.person_id+'">'+esc(x.name)+'（'+esc(x.role||'')+'）</a>').join('') : '';
     return '<section class="card" id="place-'+p.id+'"><h2>'+p.number+'. '+esc(p.name)+'（'+esc(p.yomi)+'）</h2>'
-      +'<div class="meta">'+esc(p.address)+' ／ '+esc(p.castle_type)+' ／ '+(p.lat!=null ? '座標の確かさ: '+esc(p.coord_precision) : '座標はこれから（説明を先に公開し、近似または本人の現地写真で確定する）')+'</div>'
+      +'<div class="meta">'+esc(p.address)+' ／ '+esc(p.castle_type)+' ／ '+(p.lat!=null ? '座標の確かさ: '+esc(p.coord_label || p.coord_precision) : '座標の確かさ: 未設定（説明を先に公開し、近似または本人の現地写真で確定する）')+'</div>'
       +'<div class="body"><p>'+esc(p.summary)+'</p>'+md(p.body_md)+'</div>'
       + ppl
       + '<h3>年表 ― その頃、誰がいたか</h3><div class="tl">'+bands+'</div>'

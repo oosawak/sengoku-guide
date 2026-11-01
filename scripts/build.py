@@ -13,6 +13,13 @@ DIST = ROOT / "dist"
 VENDOR_SRC = Path.home() / "workspace/markdown-cms/tendo-gourmet/dist/assets/vendor/leaflet"
 
 HOUSE_COLORS = {"nagai": "#8a9a5b", "date": "#3f6d9e", "gamo": "#b3543f", "uesugi": "#7a5c9e"}
+COORD_LABELS = {
+    "site_identified": "遺跡の位置を特定",
+    "photo_exif": "現地写真の位置情報から取得",
+    "aza_approximation": "字・集落からの近似",
+    "district_approximation": "地区レベルの近似",
+    "pending": "未設定",
+}
 CLAN_COLORS = {"大町氏": "#e08a2e", "安久津氏": "#2e9e7b", "片倉氏（分家）": "#6aa84f"}
 UNKNOWN_COLOR = "#9aa3ab"
 STAGES = [
@@ -75,6 +82,8 @@ def main():
         fm["body_md"] = body; fm["_file"] = path.name
         orgs.append(fm)
 
+    for p in places:
+        p["coord_label"] = COORD_LABELS.get(p.get("coord_precision"), p.get("coord_precision"))
     places.sort(key=lambda p: (p.get("number") is None, p.get("number") or 0))
     ids = [p["id"] for p in places]
     if len(ids) != len(set(ids)): errors.append("place id duplicated")
@@ -237,6 +246,10 @@ main{max-width:1060px;margin:0 auto;padding:16px 14px 40px}
 .era-btn{font-size:12px;padding:7px 12px;border-radius:999px;border:1px solid #b9c2cc;background:#fff;cursor:pointer}
 .era-btn.on{background:#2e4a62;color:#fff;border-color:transparent}
 .note{font-size:12px;color:#68707a;line-height:1.7}
+.legend{background:#fff;border:1px solid #d5dbe2;border-radius:12px;padding:10px 14px;margin-top:10px}
+.legend-t{font-size:12.5px;font-weight:700;margin-bottom:4px}
+.legend ul{margin:4px 0;padding-left:18px}
+.legend li{font-size:12px;line-height:1.7;color:#3c4652}
 .card{background:#fff;border:1px solid #d5dbe2;border-radius:12px;padding:16px 18px;margin:18px 0}
 .card h2{margin:0 0 4px;font-size:19px}.card h3{margin:16px 0 6px;font-size:15px}
 .meta{font-size:12px;color:#68707a}
@@ -285,6 +298,14 @@ footer{max-width:1060px;margin:0 auto;padding:14px;font-size:12px;color:#68707a;
 <div id="map"></div>
 <div class="eras" id="eras"></div>
 <div class="note">時代を選ぶと、地図の色分けがその時代の領主に切り替わります。色のついた範囲やピンを押すと、その城館の紹介へ飛びます。</div>
+<div class="legend"><div class="legend-t">座標の確かさ（凡例）</div>
+<ul>
+<li><b>遺跡の位置を特定</b> ― 調査や現地の手がかりで、城館跡の場所を特定できた座標です。</li>
+<li><b>現地写真の位置情報から取得</b> ― 本人が城跡で撮った写真の位置情報（GPS）から入れた座標です。</li>
+<li><b>字・集落からの近似</b> ― 字（あざ）や集落の位置からの近似です。実際の跡とは少しずれることがあります。</li>
+<li><b>地区レベルの近似</b> ― 地区のおおよその位置です。目安として使います。</li>
+<li><b>未設定</b> ― 座標はこれから入れます。説明は先に公開しています。</li>
+</ul></div>
 </section>
 <div id="places"></div>
 <div id="people"></div>
@@ -386,7 +407,7 @@ async function main(){
     const modern = tl.modern_events.length ? '<h3>その後</h3>'+tl.modern_events.map(e=>'<p class="note">'+esc(e.year_label)+'：'+esc(e.text)+'</p>').join('') : '';
     const ppl = p.people.length ? '<h3>この城にいた人物</h3>'+p.people.map(x=>'<a class="chip" href="#person-'+x.person_id+'" data-go="person-'+x.person_id+'">'+esc(x.name)+'（'+esc(x.role||'')+'）</a>').join('') : '';
     return '<section class="card" id="place-'+p.id+'"><h2>'+p.number+'. '+esc(p.name)+'（'+esc(p.yomi)+'）</h2>'
-      +'<div class="meta">'+esc(p.address)+' ／ '+esc(p.castle_type)+' ／ '+(p.lat!=null ? '座標の確かさ: '+esc(p.coord_precision) : '座標はこれから（説明を先に公開し、近似または本人の現地写真で確定する）')+'</div>'
+      +'<div class="meta">'+esc(p.address)+' ／ '+esc(p.castle_type)+' ／ '+(p.lat!=null ? '座標の確かさ: '+esc(p.coord_label || p.coord_precision) : '座標の確かさ: 未設定（説明を先に公開し、近似または本人の現地写真で確定する）')+'</div>'
       +'<div class="body"><p>'+esc(p.summary)+'</p>'+md(p.body_md)+'</div>'
       + ppl
       + '<h3>年表 ― その頃、誰がいたか</h3><div class="tl">'+bands+'</div>'
