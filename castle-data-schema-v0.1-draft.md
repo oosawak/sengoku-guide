@@ -110,3 +110,9 @@ visit_note: ''
 - 人物（content/people/）: id/name/yomi/house_id/house/clan/born/died/alias/era/`stays`[{place_id, from, to, role, certainty}] が正本。城館→人物は build が stays から生成（二重持ちしない）。`pyramid` {level, level_name, role_terms} で組織図と接続。伝記の正本がゲーム側にある人物は data_status: reference の参照ファイルに留める。
 - 組織（content/organization/<house>.md）: `levels`[{level, name, description, examples: 人物ID, terms}] と `terms`[{term, yomi, description}]。人物の role_terms から用語アンカーへリンク。
 - 年表の帯（時代区分）は build 側の定数 STAGES（置賜: 〜1380長井／1380〜1591伊達／1591〜1598蒲生／1598〜上杉）。「その頃いた人物」は stays の期間と出来事年から自動判定＋出来事側 person_ids の明示分を合算。
+
+## 座標の扱い（2026-11-01 本人の方針、ゲーム側 decisions 補足と同一）
+- 説明（コンテンツ）を先に作り、座標は後から入れる。座標がないことを理由にデータ作りを止めない（lat/lng は両方 null を許す。build は座標なしの城館を地図・領地・組織図から外し、一覧と記事には出す）。
+- 正確な座標が取れない所は「大体この辺」の近似でよい。ただし近似であることをデータで区別する。
+- 本命の埋め方は本人の現地写真: 城跡で撮った写真の EXIF GPS を座標として入れ、写真自体もガイドの素材にする。
+- coord_precision の語彙: site_identified（遺跡の位置を特定）／photo_exif（本人の現地写真の位置情報由来）／aza_approximation（字・集落からの近似）／district_approximation（地区からの近似）／pending（未設定）。coord_source に根拠（地図URL・写真ファイル名と撮影日など）を必ず書く。

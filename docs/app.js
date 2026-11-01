@@ -47,9 +47,9 @@ async function main(){
   const photo = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg', {attribution:'地理院タイル（航空写真）', maxZoom:18});
   gsi.addTo(map);
   L.control.layers({'地理院 標準':gsi, 'OpenStreetMap':osm, '航空写真':photo}).addTo(map);
-  const pts = DATA.places.map(p=>[p.lat,p.lng]);
-  map.fitBounds(pts, {padding:[30,30]});
-  DATA.places.forEach(p=>{
+  const pts = DATA.places.filter(p=>p.lat!=null).map(p=>[p.lat,p.lng]);
+  if(pts.length) map.fitBounds(pts, {padding:[30,30]}); else map.setView([38.1,140.02], 11);
+  DATA.places.filter(p=>p.lat!=null).forEach(p=>{
     const m = L.marker([p.lat,p.lng]).addTo(map);
     m.bindPopup('<b>'+esc(p.name)+'</b><br>'+esc(p.summary)+'<br><a href="#place-'+p.id+'" data-go="place-'+p.id+'">紹介を読む →</a>');
     m.on('click', ()=>{});
@@ -74,7 +74,7 @@ async function main(){
     const modern = tl.modern_events.length ? '<h3>その後</h3>'+tl.modern_events.map(e=>'<p class="note">'+esc(e.year_label)+'：'+esc(e.text)+'</p>').join('') : '';
     const ppl = p.people.length ? '<h3>この城にいた人物</h3>'+p.people.map(x=>'<a class="chip" href="#person-'+x.person_id+'" data-go="person-'+x.person_id+'">'+esc(x.name)+'（'+esc(x.role||'')+'）</a>').join('') : '';
     return '<section class="card" id="place-'+p.id+'"><h2>'+p.number+'. '+esc(p.name)+'（'+esc(p.yomi)+'）</h2>'
-      +'<div class="meta">'+esc(p.address)+' ／ '+esc(p.castle_type)+' ／ 座標の確かさ: '+esc(p.coord_precision)+'</div>'
+      +'<div class="meta">'+esc(p.address)+' ／ '+esc(p.castle_type)+' ／ '+(p.lat!=null ? '座標の確かさ: '+esc(p.coord_precision) : '座標はこれから（説明を先に公開し、近似または本人の現地写真で確定する）')+'</div>'
       +'<div class="body"><p>'+esc(p.summary)+'</p>'+md(p.body_md)+'</div>'
       + ppl
       + '<h3>年表 ― その頃、誰がいたか</h3><div class="tl">'+bands+'</div>'

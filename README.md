@@ -4,7 +4,7 @@
 データの正本は Markdown ファイル。城館データはゲーム『奥羽一生録』と共通（正本は1つ、ゲームはID参照）。
 
 ## 状態（2026-11-01）
-- ローカルのみ。リポ作成・公開はしていない（公開は本人の承認後）。
+- 2026-11-01、本人の承認で試作公開済み: public リポ github.com/oosawak/sengoku-guide、GitHub Pages（main／docs）で https://oosawak.github.io/sengoku-guide/ 。公開側で index・data.json（城館5・人物8・orgmap あり）・地図画像・Leaflet の200応答と Pages built を確認。
 - build: `python3 scripts/build.py` → `dist/`（index.html / app.js / data.json / Leaflet自己ホスト）。
 - 検証: build のバリデーション（ID・参照・ファイル名）通過、data.json の相互リンク・年表・領地を確認、ローカルHTTPで 200 応答を確認。
 

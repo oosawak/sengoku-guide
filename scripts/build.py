@@ -78,6 +78,10 @@ def main():
     ids = [p["id"] for p in places]
     if len(ids) != len(set(ids)): errors.append("place id duplicated")
     for p in places:
+        if (p.get("lat") is None) != (p.get("lng") is None):
+            errors.append(f"{p['id']}: lat/lng must be both set or both null")
+        if p.get("lat") is not None and not (30 < p["lat"] < 46 and 129 < p["lng"] < 147):
+            errors.append(f"{p['id']}: coordinates out of Japan range")
         if p["_file"] != p["id"] + ".md": errors.append(f"file/id mismatch: {p['_file']}")
         for q in p.get("related_places", []):
             qid = q.get("place_id") if isinstance(q, dict) else q
@@ -149,11 +153,12 @@ def main():
                          "modern_events": [{"year_label": e["year_label"], "text": e["text"]} for e in modern]}
 
     # territories
-    pts = [(p["lng"], p["lat"]) for p in places]
-    area = expand_polygon(hull(pts))
+    coord_places = [p for p in places if p.get("lat") is not None]
+    pts = [(p["lng"], p["lat"]) for p in coord_places]
+    area = expand_polygon(hull(pts)) if len(pts) >= 3 else []
     territories = {"area_polygon": area, "eras": ERAS, "house_colors": HOUSE_COLORS,
                    "local_areas": []}
-    for p in places:
+    for p in coord_places:
         t = p.get("territory") or {}
         clan = t.get("local_clan")
         territories["local_areas"].append({
@@ -177,7 +182,7 @@ def main():
             yp = (merc_y(lat) - y_top) / (y_bot - y_top) * 100
             return {"x_pct": round(xp, 2), "y_pct": round(yp, 2),
                     "x": round(xp / 100 * meta["width"]), "y": round(yp / 100 * meta["height"])}
-        orgmap = {**meta, "points": {pl["id"]: proj(pl["lat"], pl["lng"]) for pl in places},
+        orgmap = {**meta, "points": {pl["id"]: proj(pl["lat"], pl["lng"]) for pl in places if pl.get("lat") is not None},
                   "lord": {"x_pct": 50.0, "y_pct": 96.5,
                            "x": round(0.5 * meta["width"]), "y": round(0.965 * meta["height"])}}
 
@@ -316,9 +321,9 @@ async function main(){
   const photo = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg', {attribution:'地理院タイル（航空写真）', maxZoom:18});
   gsi.addTo(map);
   L.control.layers({'地理院 標準':gsi, 'OpenStreetMap':osm, '航空写真':photo}).addTo(map);
-  const pts = DATA.places.map(p=>[p.lat,p.lng]);
-  map.fitBounds(pts, {padding:[30,30]});
-  DATA.places.forEach(p=>{
+  const pts = DATA.places.filter(p=>p.lat!=null).map(p=>[p.lat,p.lng]);
+  if(pts.length) map.fitBounds(pts, {padding:[30,30]}); else map.setView([38.1,140.02], 11);
+  DATA.places.filter(p=>p.lat!=null).forEach(p=>{
     const m = L.marker([p.lat,p.lng]).addTo(map);
     m.bindPopup('<b>'+esc(p.name)+'</b><br>'+esc(p.summary)+'<br><a href="#place-'+p.id+'" data-go="place-'+p.id+'">紹介を読む →</a>');
     m.on('click', ()=>{});
@@ -343,7 +348,7 @@ async function main(){
     const modern = tl.modern_events.length ? '<h3>その後</h3>'+tl.modern_events.map(e=>'<p class="note">'+esc(e.year_label)+'：'+esc(e.text)+'</p>').join('') : '';
     const ppl = p.people.length ? '<h3>この城にいた人物</h3>'+p.people.map(x=>'<a class="chip" href="#person-'+x.person_id+'" data-go="person-'+x.person_id+'">'+esc(x.name)+'（'+esc(x.role||'')+'）</a>').join('') : '';
     return '<section class="card" id="place-'+p.id+'"><h2>'+p.number+'. '+esc(p.name)+'（'+esc(p.yomi)+'）</h2>'
-      +'<div class="meta">'+esc(p.address)+' ／ '+esc(p.castle_type)+' ／ 座標の確かさ: '+esc(p.coord_precision)+'</div>'
+      +'<div class="meta">'+esc(p.address)+' ／ '+esc(p.castle_type)+' ／ '+(p.lat!=null ? '座標の確かさ: '+esc(p.coord_precision) : '座標はこれから（説明を先に公開し、近似または本人の現地写真で確定する）')+'</div>'
       +'<div class="body"><p>'+esc(p.summary)+'</p>'+md(p.body_md)+'</div>'
       + ppl
       + '<h3>年表 ― その頃、誰がいたか</h3><div class="tl">'+bands+'</div>'
