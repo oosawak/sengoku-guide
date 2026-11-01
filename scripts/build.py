@@ -250,6 +250,8 @@ main{max-width:1060px;margin:0 auto;padding:16px 14px 40px}
 .legend-t{font-size:12.5px;font-weight:700;margin-bottom:4px}
 .legend ul{margin:4px 0;padding-left:18px}
 .legend li{font-size:12px;line-height:1.7;color:#3c4652}
+#sidebar .legend{margin-top:14px;padding:9px 11px}
+#sidebar .legend li{font-size:11.5px}
 .card{background:#fff;border:1px solid #d5dbe2;border-radius:12px;padding:16px 18px;margin:18px 0}
 .card h2{margin:0 0 4px;font-size:19px}.card h3{margin:16px 0 6px;font-size:15px}
 .meta{font-size:12px;color:#68707a}
@@ -291,13 +293,7 @@ footer{max-width:1060px;margin:0 auto;padding:14px;font-size:12px;color:#68707a;
 <div id="nav-scrim"></div>
 <div class="layout">
 <aside id="sidebar"><div class="side-t">目次</div><nav id="sidenav"></nav>
-<div class="note" style="margin-top:16px">試作（長井市5館）。データの正本は Markdown ファイルで、城館データはゲーム『奥羽一生録』と共通です。</div></aside>
-<div class="content-wrap">
-<main>
-<section id="map-top">
-<div id="map"></div>
-<div class="eras" id="eras"></div>
-<div class="note">時代を選ぶと、地図の色分けがその時代の領主に切り替わります。色のついた範囲やピンを押すと、その城館の紹介へ飛びます。</div>
+<div class="note" style="margin-top:16px">試作（長井市5館）。データの正本は Markdown ファイルで、城館データはゲーム『奥羽一生録』と共通です。</div>
 <div class="legend"><div class="legend-t">座標の確かさ（凡例）</div>
 <ul>
 <li><b>遺跡の位置を特定</b> ― 調査や現地の手がかりで、城館跡の場所を特定できた座標です。</li>
@@ -306,6 +302,13 @@ footer{max-width:1060px;margin:0 auto;padding:14px;font-size:12px;color:#68707a;
 <li><b>地区レベルの近似</b> ― 地区のおおよその位置です。目安として使います。</li>
 <li><b>未設定</b> ― 座標はこれから入れます。説明は先に公開しています。</li>
 </ul></div>
+</aside>
+<div class="content-wrap">
+<main>
+<section id="map-top">
+<div id="map"></div>
+<div class="eras" id="eras"></div>
+<div class="note">時代を選ぶと、地図の色分けがその時代の領主に切り替わります。色のついた範囲やピンを押すと、その城館の紹介へ飛びます。</div>
 </section>
 <div id="places"></div>
 <div id="people"></div>
