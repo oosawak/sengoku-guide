@@ -2,7 +2,7 @@
 id: nagai-katakura-date
 name: 片倉館
 yomi: かたくらだて
-number: 17
+number: 4
 lat: 38.0985
 lng: 139.9975
 coord_precision: aza_approximation

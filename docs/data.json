@@ -4,7 +4,7 @@
    "id": "nagai-hakusanmori-date",
    "name": "白山森館",
    "yomi": "はくさんもりだて",
-   "number": 14,
+   "number": 1,
    "lat": 38.1267,
    "lng": 139.995,
    "coord_precision": "site_identified",
@@ -138,184 +138,10 @@
    }
   },
   {
-   "id": "nagai-katakura-date",
-   "name": "片倉館",
-   "yomi": "かたくらだて",
-   "number": 17,
-   "lat": 38.0985,
-   "lng": 139.9975,
-   "coord_precision": "aza_approximation",
-   "coord_note": "地理院地図で平山の南に表示される字木口の宅地のまとまりの中心に置いた近似値。城館名の表示はOSM・地理院ともなし。私有地のため、ピンは字の中心程度の精度にとどめる",
-   "coord_source": "https://maps.gsi.go.jp/#18/38.098500/139.997500/&base=std&ls=std&disp=1&vs=c1j0l0u0t0z0r0s0m0f1",
-   "address": "山形県長井市平山字木口",
-   "municipality": "長井市",
-   "prefecture": "山形県",
-   "kuni": "出羽",
-   "region": "置賜",
-   "castle_type": "居館",
-   "clan": "片倉氏",
-   "periods": [
-    {
-     "house_id": "date",
-     "house": "伊達家",
-     "clan": "片倉氏",
-     "from": 1509,
-     "to": null,
-     "role": "居館"
-    }
-   ],
-   "related_people": [],
-   "related_events": [],
-   "related_places": [
-    {
-     "place_id": "nagai-hakusanmori-date",
-     "relation": "同じ長井市内の四十八館"
-    },
-    {
-     "place_id": "nagai-shofukuji-date",
-     "relation": "同じ長井市内の四十八館"
-    },
-    {
-     "place_id": "nagai-tokiniwa-date",
-     "relation": "同じ長井市内の四十八館"
-    },
-    {
-     "place_id": "nagai-yokosawayama-date",
-     "relation": "同じ長井市内の四十八館"
-    }
-   ],
-   "territory": {
-    "local_clan": "片倉氏（分家）",
-    "approx_radius_m": 1400,
-    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
-    "certainty": "approximate"
-   },
-   "events_timeline": [
-    {
-     "sort_year": 1509,
-     "year_label": "1509年",
-     "era": "historical",
-     "text": "片倉右京がこの館にいたと伝わる",
-     "person_ids": [
-      "katakura-ukyo"
-     ]
-    },
-    {
-     "sort_year": 1545,
-     "year_label": "1542〜1548年（天文の乱）",
-     "era": "historical",
-     "text": "右京の子・図書介が、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝わる",
-     "person_ids": [
-      "katakura-zushonosuke"
-     ]
-    }
-   ],
-   "years": {
-    "founded": null,
-    "founded_note": "永正6年（1509）に片倉右京がいたと伝わる",
-    "active_from": 1509,
-    "active_to": null
-   },
-   "designation": "なし",
-   "remains": [
-    "土塁",
-    "堀"
-   ],
-   "certainty": "candidate",
-   "sources": [
-    "城郭放浪記「出羽 片倉館」https://www.hb.pei.jp/shiro/dewa/hirayama-katakura-date/",
-    "Kappo ARTICLES「伊達な置賜四十八館を巡る」片倉館の項 https://kappo.machico.mu/articles/9353"
-   ],
-   "title": "片倉館",
-   "date": "2026-11-01",
-   "category": "長井市",
-   "summary": "長井市平山に残る片倉氏分家の居館跡。小規模ながら堀と土塁がよく残り、今も片倉氏の子孫がこの地に住んでいるという、珍しい城館跡。",
-   "visit_note": "現在も人が住む宅地で、私有地です。敷地には立ち入らず、住んでいる方への撮影・声かけも控えてください。位置のピンも字の中心程度の精度にとどめています。",
-   "body_md": "長井市西部の平山にある、小さな居館の跡です。伊達政宗の重臣・片倉景綱を出した片倉氏はいくつかの家に分かれていて、その分家の一つがこの地に住みました。\n\n## どんな場所か\n\n規模は大きくありませんが、屋敷のまわりを堀と土塁が巡る形が残っています。西側では堀が二重になっているともいわれ、単郭の館としては丁寧な構えです。取材記事では、上空から見ると五角形に近い館の形が分かると紹介されています。\n\n## 歴史メモ\n\n資料によれば、永正6年（1509）には片倉右京がこの館にいたとされます。天文の乱のときには、その子の片倉図書介が、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝えられます。伊達氏の中で親子・同族が敵味方や別の館に分かれて動いた、戦国らしい一場面です。\n\n今も片倉氏の子孫がこの地に住んでいるといわれます。城主の子孫が城跡に住み続ける例は、全国でも珍しい部類です。\n\n## 今見られるもの\n\n- 屋敷を巡る土塁と堀（敷地の外、公道から見える範囲のみ）\n- ※私有地のため、敷地内での見学はできません",
-   "people": [
-    {
-     "person_id": "katakura-ukyo",
-     "name": "片倉右京",
-     "role": "館主と伝わる",
-     "from": 1509,
-     "to": 1509,
-     "certainty": "candidate"
-    },
-    {
-     "person_id": "katakura-zushonosuke",
-     "name": "片倉図書介",
-     "role": "片倉館の片倉氏として戦いに参加",
-     "from": 1542,
-     "to": 1548,
-     "certainty": "candidate"
-    }
-   ],
-   "timeline": {
-    "window": {
-     "start": 1490,
-     "end": 1610
-    },
-    "stages": [
-     {
-      "from": 1380,
-      "to": 1591,
-      "name": "伊達氏の時代",
-      "house_id": "date",
-      "color": "#3f6d9e",
-      "left_pct": 0.0,
-      "width_pct": 84.17
-     },
-     {
-      "from": 1591,
-      "to": 1598,
-      "name": "蒲生氏の時代",
-      "house_id": "gamo",
-      "color": "#b3543f",
-      "left_pct": 84.17,
-      "width_pct": 5.83
-     },
-     {
-      "from": 1598,
-      "to": 1615,
-      "name": "上杉氏の時代",
-      "house_id": "uesugi",
-      "color": "#7a5c9e",
-      "left_pct": 90.0,
-      "width_pct": 10.0
-     }
-    ],
-    "events": [
-     {
-      "sort_year": 1509,
-      "year_label": "1509年",
-      "text": "片倉右京がこの館にいたと伝わる",
-      "persons_at": [
-       {
-        "person_id": "katakura-ukyo",
-        "name": "片倉右京"
-       }
-      ]
-     },
-     {
-      "sort_year": 1545,
-      "year_label": "1542〜1548年（天文の乱）",
-      "text": "右京の子・図書介が、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝わる",
-      "persons_at": [
-       {
-        "person_id": "katakura-zushonosuke",
-        "name": "片倉図書介"
-       }
-      ]
-     }
-    ],
-    "modern_events": []
-   }
-  },
-  {
    "id": "nagai-shofukuji-date",
    "name": "正福寺館",
    "yomi": "しょうふくじだて",
-   "number": 15,
+   "number": 2,
    "lat": 38.0962,
    "lng": 140.0292,
    "coord_precision": "aza_approximation",
@@ -501,7 +327,7 @@
    "id": "nagai-tokiniwa-date",
    "name": "時庭館",
    "yomi": "ときにわだて",
-   "number": 16,
+   "number": 3,
    "lat": 38.0762,
    "lng": 140.0216,
    "coord_precision": "aza_approximation",
@@ -670,10 +496,184 @@
    }
   },
   {
+   "id": "nagai-katakura-date",
+   "name": "片倉館",
+   "yomi": "かたくらだて",
+   "number": 4,
+   "lat": 38.0985,
+   "lng": 139.9975,
+   "coord_precision": "aza_approximation",
+   "coord_note": "地理院地図で平山の南に表示される字木口の宅地のまとまりの中心に置いた近似値。城館名の表示はOSM・地理院ともなし。私有地のため、ピンは字の中心程度の精度にとどめる",
+   "coord_source": "https://maps.gsi.go.jp/#18/38.098500/139.997500/&base=std&ls=std&disp=1&vs=c1j0l0u0t0z0r0s0m0f1",
+   "address": "山形県長井市平山字木口",
+   "municipality": "長井市",
+   "prefecture": "山形県",
+   "kuni": "出羽",
+   "region": "置賜",
+   "castle_type": "居館",
+   "clan": "片倉氏",
+   "periods": [
+    {
+     "house_id": "date",
+     "house": "伊達家",
+     "clan": "片倉氏",
+     "from": 1509,
+     "to": null,
+     "role": "居館"
+    }
+   ],
+   "related_people": [],
+   "related_events": [],
+   "related_places": [
+    {
+     "place_id": "nagai-hakusanmori-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-shofukuji-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-tokiniwa-date",
+     "relation": "同じ長井市内の四十八館"
+    },
+    {
+     "place_id": "nagai-yokosawayama-date",
+     "relation": "同じ長井市内の四十八館"
+    }
+   ],
+   "territory": {
+    "local_clan": "片倉氏（分家）",
+    "approx_radius_m": 1400,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   "events_timeline": [
+    {
+     "sort_year": 1509,
+     "year_label": "1509年",
+     "era": "historical",
+     "text": "片倉右京がこの館にいたと伝わる",
+     "person_ids": [
+      "katakura-ukyo"
+     ]
+    },
+    {
+     "sort_year": 1545,
+     "year_label": "1542〜1548年（天文の乱）",
+     "era": "historical",
+     "text": "右京の子・図書介が、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝わる",
+     "person_ids": [
+      "katakura-zushonosuke"
+     ]
+    }
+   ],
+   "years": {
+    "founded": null,
+    "founded_note": "永正6年（1509）に片倉右京がいたと伝わる",
+    "active_from": 1509,
+    "active_to": null
+   },
+   "designation": "なし",
+   "remains": [
+    "土塁",
+    "堀"
+   ],
+   "certainty": "candidate",
+   "sources": [
+    "城郭放浪記「出羽 片倉館」https://www.hb.pei.jp/shiro/dewa/hirayama-katakura-date/",
+    "Kappo ARTICLES「伊達な置賜四十八館を巡る」片倉館の項 https://kappo.machico.mu/articles/9353"
+   ],
+   "title": "片倉館",
+   "date": "2026-11-01",
+   "category": "長井市",
+   "summary": "長井市平山に残る片倉氏分家の居館跡。小規模ながら堀と土塁がよく残り、今も片倉氏の子孫がこの地に住んでいるという、珍しい城館跡。",
+   "visit_note": "現在も人が住む宅地で、私有地です。敷地には立ち入らず、住んでいる方への撮影・声かけも控えてください。位置のピンも字の中心程度の精度にとどめています。",
+   "body_md": "長井市西部の平山にある、小さな居館の跡です。伊達政宗の重臣・片倉景綱を出した片倉氏はいくつかの家に分かれていて、その分家の一つがこの地に住みました。\n\n## どんな場所か\n\n規模は大きくありませんが、屋敷のまわりを堀と土塁が巡る形が残っています。西側では堀が二重になっているともいわれ、単郭の館としては丁寧な構えです。取材記事では、上空から見ると五角形に近い館の形が分かると紹介されています。\n\n## 歴史メモ\n\n資料によれば、永正6年（1509）には片倉右京がこの館にいたとされます。天文の乱のときには、その子の片倉図書介が、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝えられます。伊達氏の中で親子・同族が敵味方や別の館に分かれて動いた、戦国らしい一場面です。\n\n今も片倉氏の子孫がこの地に住んでいるといわれます。城主の子孫が城跡に住み続ける例は、全国でも珍しい部類です。\n\n## 今見られるもの\n\n- 屋敷を巡る土塁と堀（敷地の外、公道から見える範囲のみ）\n- ※私有地のため、敷地内での見学はできません",
+   "people": [
+    {
+     "person_id": "katakura-ukyo",
+     "name": "片倉右京",
+     "role": "館主と伝わる",
+     "from": 1509,
+     "to": 1509,
+     "certainty": "candidate"
+    },
+    {
+     "person_id": "katakura-zushonosuke",
+     "name": "片倉図書介",
+     "role": "片倉館の片倉氏として戦いに参加",
+     "from": 1542,
+     "to": 1548,
+     "certainty": "candidate"
+    }
+   ],
+   "timeline": {
+    "window": {
+     "start": 1490,
+     "end": 1610
+    },
+    "stages": [
+     {
+      "from": 1380,
+      "to": 1591,
+      "name": "伊達氏の時代",
+      "house_id": "date",
+      "color": "#3f6d9e",
+      "left_pct": 0.0,
+      "width_pct": 84.17
+     },
+     {
+      "from": 1591,
+      "to": 1598,
+      "name": "蒲生氏の時代",
+      "house_id": "gamo",
+      "color": "#b3543f",
+      "left_pct": 84.17,
+      "width_pct": 5.83
+     },
+     {
+      "from": 1598,
+      "to": 1615,
+      "name": "上杉氏の時代",
+      "house_id": "uesugi",
+      "color": "#7a5c9e",
+      "left_pct": 90.0,
+      "width_pct": 10.0
+     }
+    ],
+    "events": [
+     {
+      "sort_year": 1509,
+      "year_label": "1509年",
+      "text": "片倉右京がこの館にいたと伝わる",
+      "persons_at": [
+       {
+        "person_id": "katakura-ukyo",
+        "name": "片倉右京"
+       }
+      ]
+     },
+     {
+      "sort_year": 1545,
+      "year_label": "1542〜1548年（天文の乱）",
+      "text": "右京の子・図書介が、宮村館の片倉伊賀守とともに鮎貝氏と戦ったと伝わる",
+      "persons_at": [
+       {
+        "person_id": "katakura-zushonosuke",
+        "name": "片倉図書介"
+       }
+      ]
+     }
+    ],
+    "modern_events": []
+   }
+  },
+  {
    "id": "nagai-yokosawayama-date",
    "name": "横沢山館",
    "yomi": "よこさわやまだて",
-   "number": 18,
+   "number": 5,
    "lat": 38.1245,
    "lng": 140.059,
    "coord_precision": "aza_approximation",
@@ -1512,18 +1512,6 @@
     "certainty": "approximate"
    },
    {
-    "place_id": "nagai-katakura-date",
-    "place_name": "片倉館",
-    "lat": 38.0985,
-    "lng": 139.9975,
-    "clan": "片倉氏（分家）",
-    "label": "片倉氏（分家）",
-    "color": "#6aa84f",
-    "radius_m": 1400,
-    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
-    "certainty": "approximate"
-   },
-   {
     "place_id": "nagai-shofukuji-date",
     "place_name": "正福寺館",
     "lat": 38.0962,
@@ -1544,6 +1532,18 @@
     "label": "安久津氏",
     "color": "#2e9e7b",
     "radius_m": 1600,
+    "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
+    "certainty": "approximate"
+   },
+   {
+    "place_id": "nagai-katakura-date",
+    "place_name": "片倉館",
+    "lat": 38.0985,
+    "lng": 139.9975,
+    "clan": "片倉氏（分家）",
+    "label": "片倉氏（分家）",
+    "color": "#6aa84f",
+    "radius_m": 1400,
     "basis": "城館を中心とする推定の範囲（境界の史料はないため目安）",
     "certainty": "approximate"
    },
@@ -1578,12 +1578,6 @@
     "x": 291,
     "y": 210
    },
-   "nagai-katakura-date": {
-    "x_pct": 35.0,
-    "y_pct": 51.38,
-    "x": 306,
-    "y": 418
-   },
    "nagai-shofukuji-date": {
     "x_pct": 56.13,
     "y_pct": 53.47,
@@ -1595,6 +1589,12 @@
     "y_pct": 71.65,
     "x": 446,
     "y": 583
+   },
+   "nagai-katakura-date": {
+    "x_pct": 35.0,
+    "y_pct": 51.38,
+    "x": 306,
+    "y": 418
    },
    "nagai-yokosawayama-date": {
     "x_pct": 76.0,

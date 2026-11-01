@@ -2,7 +2,7 @@
 id: nagai-yokosawayama-date
 name: 横沢山館
 yomi: よこさわやまだて
-number: 18
+number: 5
 lat: 38.1245
 lng: 140.059
 coord_precision: aza_approximation

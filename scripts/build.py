@@ -75,6 +75,7 @@ def main():
         fm["body_md"] = body; fm["_file"] = path.name
         orgs.append(fm)
 
+    places.sort(key=lambda p: (p.get("number") is None, p.get("number") or 0))
     ids = [p["id"] for p in places]
     if len(ids) != len(set(ids)): errors.append("place id duplicated")
     for p in places:

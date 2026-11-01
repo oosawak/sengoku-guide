@@ -2,7 +2,7 @@
 id: nagai-hakusanmori-date
 name: 白山森館
 yomi: はくさんもりだて
-number: 14
+number: 1
 lat: 38.1267
 lng: 139.995
 coord_precision: site_identified

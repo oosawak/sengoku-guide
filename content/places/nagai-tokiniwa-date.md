@@ -2,7 +2,7 @@
 id: nagai-tokiniwa-date
 name: 時庭館
 yomi: ときにわだて
-number: 16
+number: 3
 lat: 38.0762
 lng: 140.0216
 coord_precision: aza_approximation

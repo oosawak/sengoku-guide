@@ -2,7 +2,7 @@
 id: nagai-shofukuji-date
 name: 正福寺館
 yomi: しょうふくじだて
-number: 15
+number: 2
 lat: 38.0962
 lng: 140.0292
 coord_precision: aza_approximation
