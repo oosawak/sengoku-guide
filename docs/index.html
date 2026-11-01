@@ -5,9 +5,21 @@
 <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
 <style>
 body{margin:0;font-family:"Hiragino Mincho ProN","Yu Mincho",serif;background:#f7f5ef;color:#26303a}
-header{background:#2e4a62;color:#f5f2eb;padding:16px 18px} header .t{font-size:20px;font-weight:700}
+header{background:#2e4a62;color:#f5f2eb;padding:14px 18px;display:flex;gap:14px;align-items:flex-start}
+header .t{font-size:20px;font-weight:700}
 header .s{font-size:12px;opacity:.85;margin-top:4px;max-width:860px;line-height:1.6}
+#nav-toggle{display:none;background:transparent;border:1px solid rgba(255,255,255,.55);border-radius:8px;width:42px;height:42px;flex:0 0 42px;cursor:pointer;padding:10px 9px}
+#nav-toggle span{display:block;height:2px;background:#f5f2eb;margin:4px 0;border-radius:2px}
+.layout{display:flex;align-items:flex-start;max-width:1320px;margin:0 auto}
+#sidebar{width:250px;flex:0 0 250px;position:sticky;top:0;height:100vh;overflow-y:auto;background:#fff;border-right:1px solid #d5dbe2;padding:18px 14px;box-sizing:border-box}
+#sidebar .side-t{font-weight:700;font-size:14px;margin-bottom:8px}
+#sidenav h4{font-size:12px;color:#68707a;margin:16px 0 6px;letter-spacing:.08em}
+#sidenav a{display:block;padding:7px 10px;border-radius:8px;color:#26303a;text-decoration:none;font-size:13.5px;line-height:1.5}
+#sidenav a:hover{background:#f2f5f8}
+#sidenav a small{color:#68707a}
+.content-wrap{flex:1;min-width:0}
 main{max-width:1060px;margin:0 auto;padding:16px 14px 40px}
+#nav-scrim{display:none}
 #map{height:440px;border-radius:12px;border:1px solid #d5dbe2}
 .eras{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
 .era-btn{font-size:12px;padding:7px 12px;border-radius:999px;border:1px solid #b9c2cc;background:#fff;cursor:pointer}
@@ -22,10 +34,6 @@ main{max-width:1060px;margin:0 auto;padding:16px 14px 40px}
 .tl{position:relative;height:30px;border-radius:8px;overflow:hidden;border:1px solid #d5dbe2;margin:8px 0 4px;background:#eee}
 .tl-band{position:absolute;top:0;height:30px;color:#fff;font-size:11px;line-height:30px;padding-left:8px;white-space:nowrap;overflow:hidden}
 table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px solid #e3e7ec;padding:6px 8px;text-align:left;vertical-align:top}
-.pyr{display:flex;flex-direction:column;align-items:center;gap:6px;margin:12px 0}
-.pyr-level{color:#fff;border-radius:10px;padding:10px 14px;text-align:center}
-.pyr-level .nm{font-weight:700;font-size:15px}.pyr-level .ds{font-size:12px;line-height:1.6;opacity:.95}
-.pyr-level a{color:#ffe9a8}
 .term{border-top:1px solid #e3e7ec;padding:8px 0}.term b{font-size:14px}.term span{font-size:13px;line-height:1.7}
 .flash{outline:3px solid #e08a2e;transition:outline .3s}
 #orgmap{margin:10px 0}
@@ -34,8 +42,6 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
 .orgmap-svg{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none}
 .org-chip{position:absolute;transform:translate(-50%,-125%);background:rgba(255,255,255,.94);border:1px solid #2e4a62;border-radius:8px;padding:3px 8px;font-size:11px;white-space:nowrap;color:#26303a;z-index:2;line-height:1.5}
 .org-chip.lord{transform:translate(-50%,-50%);background:#2e4a62;color:#fff;font-weight:700;font-size:12px}
-.org-label{background:rgba(255,255,255,.94);border:1px solid #2e4a62;border-radius:8px;padding:3px 8px;font-size:11px;white-space:nowrap;color:#26303a;font-family:inherit}
-.org-lord{background:#2e4a62;border:1px solid #2e4a62;border-radius:8px;padding:4px 9px;font-size:12px;font-weight:700;white-space:nowrap;color:#fff;font-family:inherit}
 .tree{list-style:none;padding-left:18px;position:relative}
 .tree li{position:relative;padding:4px 0 4px 14px}
 .tree li::before{content:'';position:absolute;left:-8px;top:0;bottom:0;border-left:2px solid #b9c2cc}
@@ -44,18 +50,37 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
 .tnode{background:#f2f5f8;border:1px solid #d5dbe2;border-radius:8px;padding:6px 10px;display:inline-block;font-size:13px}
 .tnode a{color:#2e4a62;font-weight:700}
 footer{max-width:1060px;margin:0 auto;padding:14px;font-size:12px;color:#68707a;line-height:1.7}
+@media (max-width:900px){
+  #nav-toggle{display:block}
+  #sidebar{position:fixed;left:0;top:0;z-index:1300;height:100dvh;transform:translateX(-106%);transition:transform .25s ease;box-shadow:0 0 32px rgba(0,0,0,.25)}
+  body.nav-open #sidebar{transform:none}
+  #nav-scrim{position:fixed;inset:0;background:rgba(20,28,36,.45);z-index:1250}
+  body.nav-open #nav-scrim{display:block}
+  #map{height:360px}
+  .org-chip{font-size:10px;padding:2px 6px}
+}
 </style></head><body>
-<header><div class="t">戦国ガイド試作 ― 長井市の城館</div>
-<div class="s">置賜の戦国を、城館・人物・年表・領地の地図で読む試作ページです。座標は地理院地図とOpenStreetMapで取り直し、文章はすべて書き下ろし。領地の色分けは境界の史料がないため、城館を中心とする推定の目安です。</div></header>
+<header><button id="nav-toggle" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+<div><div class="t">戦国ガイド試作 ― 長井市の城館</div>
+<div class="s">置賜の戦国を、城館・人物・年表・領地の地図で読む試作ページです。座標は地理院地図とOpenStreetMapで取り直し、文章はすべて書き下ろし。領地の色分けは境界の史料がないため、城館を中心とする推定の目安です。</div></div></header>
+<div id="nav-scrim"></div>
+<div class="layout">
+<aside id="sidebar"><div class="side-t">目次</div><nav id="sidenav"></nav>
+<div class="note" style="margin-top:16px">試作（長井市5館）。データの正本は Markdown ファイルで、城館データはゲーム『奥羽一生録』と共通です。</div></aside>
+<div class="content-wrap">
 <main>
+<section id="map-top">
 <div id="map"></div>
 <div class="eras" id="eras"></div>
 <div class="note">時代を選ぶと、地図の色分けがその時代の領主に切り替わります。色のついた範囲やピンを押すと、その城館の紹介へ飛びます。</div>
+</section>
 <div id="places"></div>
 <div id="people"></div>
 <div id="org"></div>
 </main>
-<footer>試作（未公開）。データの正本は Markdown ファイルで、城館データはゲーム『奥羽一生録』と共通です。</footer>
+<footer>試作として公開中。座標・領地の範囲は推定を含むため、各紹介の注記を確認してください。</footer>
+</div>
+</div>
 <script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="app.js"></script>
 </body></html>

@@ -41,6 +41,18 @@ function drawEra(eraId){
 }
 async function main(){
   DATA = await (await fetch('data.json')).json();
+  // sidebar navigation
+  const nav = $('#sidenav');
+  if(nav){
+    nav.innerHTML =
+      '<h4>地図</h4><a href="#map-top" data-go="map-top">領地の色分け地図</a>'
+      + '<h4>城館</h4>' + DATA.places.map(p=>'<a href="#place-'+p.id+'" data-go="place-'+p.id+'">'+p.number+'. '+esc(p.name)+' <small>'+esc(p.yomi)+'</small></a>').join('')
+      + '<h4>人物</h4>' + DATA.people.map(x=>'<a href="#person-'+x.id+'" data-go="person-'+x.id+'">'+esc(x.name)+'</a>').join('')
+      + '<h4>仕組み</h4>' + DATA.organizations.map(o=>'<a href="#org-'+o.id+'" data-go="org-'+o.id+'">'+esc(o.name)+'（組織図）</a>').join('');
+  }
+  const toggle = $('#nav-toggle'), scrim = $('#nav-scrim');
+  if(toggle) toggle.addEventListener('click', ()=>document.body.classList.toggle('nav-open'));
+  if(scrim) scrim.addEventListener('click', ()=>document.body.classList.remove('nav-open'));
   map = L.map('map');
   const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'© OpenStreetMap contributors', maxZoom:18});
   const gsi = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {attribution:'地理院タイル', maxZoom:18});
@@ -64,7 +76,7 @@ async function main(){
   drawEra('date');
   document.addEventListener('click', ev=>{
     const a = ev.target.closest('[data-go]'); if(!a) return;
-    ev.preventDefault(); goTo(a.dataset.go);
+    ev.preventDefault(); document.body.classList.remove('nav-open'); goTo(a.dataset.go);
   });
   // places
   $('#places').innerHTML = DATA.places.map(p=>{
